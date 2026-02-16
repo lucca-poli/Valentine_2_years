@@ -1,0 +1,134 @@
+# Valentine's Game 💕
+
+A sweet interactive game to ask someone to be your Valentine!
+
+## 🎮 Game Flow
+
+1. **Intro Scene**: You walk towards an airplane and enter it
+2. **Flight Game**: Flappy-bird style obstacle avoidance (press SPACE to go up)
+3. **Arrival**: You exit the plane and approach your girlfriend
+4. **Kissing Scene**: Cloud covers you both with hearts popping out
+5. **The Question**: "Do you want to be my Valentine?" with Yes/No buttons
+6. **Final Scene**: Big beating heart appears when she clicks Yes!
+
+## 📁 File Structure
+
+```
+valentine-game/
+├── index.html          # Main HTML structure
+├── style.css           # All styling and animations
+├── game.js             # Game logic and interactions
+├── images/             # Your photos go here
+│   ├── you.png         # Your photo (circular crop recommended)
+│   ├── girlfriend.png  # Her photo (circular crop recommended)
+│   └── airplane.png    # Airplane image
+└── README.md           # This file
+```
+
+## 🖼️ Adding Your Photos
+
+1. Add your images to the `images/` folder:
+   - `you.png` - Your photo
+   - `girlfriend.png` - Her photo  
+   - `airplane.png` - An airplane image
+
+2. **Recommended specs**:
+   - Format: PNG with transparent background (or JPG)
+   - Your/girlfriend photos: Square images work best (they'll be cropped to circles)
+   - Airplane: Any rectangular image
+
+3. **Where to find free images**:
+   - Airplane: Search "airplane side view png transparent" on Google Images
+   - Or use any airplane emoji/clipart
+
+## 🚀 How to Run Locally
+
+### Option 1: Simple Double-Click
+Just double-click `index.html` and it should open in your browser!
+
+### Option 2: Local Server (Recommended)
+
+**With Python:**
+```bash
+# In the valentine-game folder
+python -m http.server 8000
+# Visit: http://localhost:8000
+```
+
+**With NixOS:**
+```bash
+nix-shell -p python3 --run "python -m http.server 8000"
+# Visit: http://localhost:8000
+```
+
+**With Node.js:**
+```bash
+npx http-server
+# Visit: http://localhost:8080
+```
+
+## 🎨 Customization Tips
+
+### Change Colors
+Edit `style.css`:
+- Background gradients: Look for `linear-gradient()`
+- Button colors: Search for `#f5576c` and `#f093fb`
+
+### Adjust Game Difficulty
+Edit `game.js`:
+```javascript
+// Line ~14-18: Make it easier/harder
+let obstacleSpeed = 3;  // Lower = easier (try 2)
+player.gravity = 0.5;   // Lower = floatier (try 0.3)
+player.jumpPower = -10; // Higher = bigger jumps (try -12)
+
+// Line ~217: Change distance to win
+if (distance >= 500) {  // Lower = shorter game (try 300)
+```
+
+### Change Text
+Edit `index.html`:
+```html
+<!-- Line ~58: Change the question -->
+<h1>Do you want to be my Valentine? 💕</h1>
+```
+
+### Adjust Timing
+Edit `game.js`:
+- Intro animation speed: Line ~71 (change `3000` milliseconds)
+- Heart spawning: Line ~276 (change `300` milliseconds)
+
+## 🐛 Troubleshooting
+
+**Images not loading?**
+- Make sure images are in the `images/` folder
+- Check file names match exactly (case-sensitive!)
+- Use a local server instead of double-clicking
+
+**Game too hard/easy?**
+- Adjust values in "Customization Tips" above
+- Test and tweak until it feels right
+
+**"No" button not running away?**
+- This is intentional! It should always escape the cursor
+- If it's not working, check browser console for errors
+
+## 💡 Tips for Best Experience
+
+1. **Test it first!** Play through the whole game before sharing
+2. **Adjust difficulty**: Make sure she can actually win the flying section
+3. **Photo quality**: Use clear, well-lit photos for best results
+4. **Mobile-friendly**: The game works on phones too!
+
+## 🌐 Hosting Online (Optional)
+
+To share the game online, you can use:
+- **GitHub Pages** (free)
+- **Netlify** (free, drag & drop)
+- **Vercel** (free)
+
+Just upload all files and share the link!
+
+## ❤️ Good Luck!
+
+Hope she says yes! 💕
