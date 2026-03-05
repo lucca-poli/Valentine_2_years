@@ -1,66 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Valentine's Game 💕</title>
-    <link rel="preload" href="images/departure_area.jpg" as="image">
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body style="background-image: url('images/departure_area.jpg'); background-size: cover; background-position: center;">
-    <!-- Game Container -->
-    <div id="game-container">
-
-        <!-- Scene 1: Intro - You walking to plane -->
-        <div id="intro-scene" class="active">
-            <img id="you-intro" src="images/gi_kebab_linda_transparent.png" alt="You" class="character">
-            <img id="airplane-intro" src="images/airplane_down.png" alt="Airplane" class="airplane-static">
-        </div>
-
-        <!-- Scene 2: Fly the plane game -->
-        <div id="game-scene" class="scene">
-            <canvas id="game-canvas"></canvas>
-            <div id="score">Distance: 0m</div>
-        </div>
-
-        <!-- Scene 3: Arrival - You exit plane and approach girlfriend -->
-        <!-- <div id="arrival-scene" class="scene"> -->
-        <!--     <img id="airplane-arrival" src="images/airplane.png" alt="Airplane" class="airplane-static"> -->
-        <!--     <img id="you-arrival" src="images/you.png" alt="You" class="character"> -->
-        <!--     <img id="girlfriend" src="images/girlfriend.png" alt="Girlfriend" class="character"> -->
-        <!-- </div> -->
-
-        <!-- Scene 4: Kissing with cloud and hearts -->
-        <!-- <div id="kissing-scene" class="scene"> -->
-        <!--     <div id="couple-container"> -->
-        <!--         <img id="you-kissing" src="images/you.png" alt="You" class="character"> -->
-        <!--         <img id="girlfriend-kissing" src="images/girlfriend.png" alt="Girlfriend" class="character"> -->
-        <!--     </div> -->
-        <!--     <div id="cloud"></div> -->
-        <!--     <div id="hearts-container"></div> -->
-        <!-- </div> -->
-
-        <!-- Scene 5: Valentine question -->
-        <!-- <div id="question-scene" class="scene"> -->
-        <!--     <div id="question-overlay"> -->
-        <!--         <h1>Do you want to be my Valentine? 💕</h1> -->
-        <!--         <div id="button-container"> -->
-        <!--             <button id="yes-button" class="answer-button">Yes! 💖</button> -->
-        <!--             <button id="no-button" class="answer-button">No</button> -->
-        <!--         </div> -->
-        <!--     </div> -->
-        <!-- </div> -->
-
-        <!-- Final scene: Big heart -->
-        <!-- <div id="final-scene" class="scene"> -->
-        <!--     <div id="big-heart">❤️</div> -->
-        <!-- </div> -->
-
-    </div>
-
-    <script src="game.js"></script>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <title>Bubbo Bubbo</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        background-color: 0x111111;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>

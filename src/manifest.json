@@ -1,0 +1,692 @@
+{
+  "bundles": [
+    {
+      "name": "default",
+      "assets": [
+        {
+          "alias": [
+            "audio/bubble-land-sfx.wav",
+            "bubble-land-sfx.wav"
+          ],
+          "src": [
+            "audio/bubble-land-sfx.ogg",
+            "audio/bubble-land-sfx.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "audio/bubbles-falling.wav",
+            "bubbles-falling.wav"
+          ],
+          "src": [
+            "audio/bubbles-falling.ogg",
+            "audio/bubbles-falling.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "audio/bubbo-bubbo-bg-music.wav",
+            "bubbo-bubbo-bg-music.wav"
+          ],
+          "src": [
+            "audio/bubbo-bubbo-bg-music.ogg",
+            "audio/bubbo-bubbo-bg-music.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "audio/cannon-move.wav",
+            "cannon-move.wav"
+          ],
+          "src": [
+            "audio/cannon-move.ogg",
+            "audio/cannon-move.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "audio/powerup-bomb.wav",
+            "powerup-bomb.wav"
+          ],
+          "src": [
+            "audio/powerup-bomb.ogg",
+            "audio/powerup-bomb.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "audio/powerup-super.wav",
+            "powerup-super.wav"
+          ],
+          "src": [
+            "audio/powerup-super.ogg",
+            "audio/powerup-super.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "audio/powerup-time.wav",
+            "powerup-time.wav"
+          ],
+          "src": [
+            "audio/powerup-time.ogg",
+            "audio/powerup-time.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "audio/primary-button-press.wav",
+            "primary-button-press.wav"
+          ],
+          "src": [
+            "audio/primary-button-press.ogg",
+            "audio/primary-button-press.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "audio/secondary-button-press.wav",
+            "secondary-button-press.wav"
+          ],
+          "src": [
+            "audio/secondary-button-press.ogg",
+            "audio/secondary-button-press.mp3"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "fonts/Bungee-Regular.ttf",
+            "Bungee-Regular.ttf"
+          ],
+          "src": [
+            "fonts/Bungee-Regular.woff2"
+          ],
+          "data": {
+            "tags": {
+              "wf": true,
+              "family": "Bungee-Regular"
+            },
+            "family": "Bungee-Regular"
+          }
+        },
+        {
+          "alias": [
+            "fonts/OpenSans-SemiBold.ttf",
+            "OpenSans-SemiBold.ttf"
+          ],
+          "src": [
+            "fonts/OpenSans-SemiBold.woff2"
+          ],
+          "data": {
+            "tags": {
+              "wf": true,
+              "family": "OpenSans-SemiBold"
+            },
+            "family": "OpenSans-SemiBold"
+          }
+        },
+        {
+          "alias": [
+            "images/favicon.png",
+            "favicon.png"
+          ],
+          "src": [
+            "images/favicon@0.5x.webp",
+            "images/favicon@0.5x.png",
+            "images/favicon.webp",
+            "images/favicon.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/IMG_20240929_153022.jpg",
+            "IMG_20240929_153022.jpg"
+          ],
+          "src": [
+            "images/valentine/IMG_20240929_153022@0.5x.webp",
+            "images/valentine/IMG_20240929_153022@0.5x.jpg",
+            "images/valentine/IMG_20240929_153022.webp",
+            "images/valentine/IMG_20240929_153022.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/IMG_20241120_141945.jpg",
+            "IMG_20241120_141945.jpg"
+          ],
+          "src": [
+            "images/valentine/IMG_20241120_141945@0.5x.webp",
+            "images/valentine/IMG_20241120_141945@0.5x.jpg",
+            "images/valentine/IMG_20241120_141945.webp",
+            "images/valentine/IMG_20241120_141945.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/IMG_20241231_122557.jpg",
+            "IMG_20241231_122557.jpg"
+          ],
+          "src": [
+            "images/valentine/IMG_20241231_122557@0.5x.webp",
+            "images/valentine/IMG_20241231_122557@0.5x.jpg",
+            "images/valentine/IMG_20241231_122557.webp",
+            "images/valentine/IMG_20241231_122557.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/IMG_20250108_173246.jpg",
+            "IMG_20250108_173246.jpg"
+          ],
+          "src": [
+            "images/valentine/IMG_20250108_173246@0.5x.webp",
+            "images/valentine/IMG_20250108_173246@0.5x.jpg",
+            "images/valentine/IMG_20250108_173246.webp",
+            "images/valentine/IMG_20250108_173246.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/IMG_20250108_173255.jpg",
+            "IMG_20250108_173255.jpg"
+          ],
+          "src": [
+            "images/valentine/IMG_20250108_173255@0.5x.webp",
+            "images/valentine/IMG_20250108_173255@0.5x.jpg",
+            "images/valentine/IMG_20250108_173255.webp",
+            "images/valentine/IMG_20250108_173255.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/IMG_20250110_104844.jpg",
+            "IMG_20250110_104844.jpg"
+          ],
+          "src": [
+            "images/valentine/IMG_20250110_104844@0.5x.webp",
+            "images/valentine/IMG_20250110_104844@0.5x.jpg",
+            "images/valentine/IMG_20250110_104844.webp",
+            "images/valentine/IMG_20250110_104844.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/IMG_20250215_112451.jpg",
+            "IMG_20250215_112451.jpg"
+          ],
+          "src": [
+            "images/valentine/IMG_20250215_112451@0.5x.webp",
+            "images/valentine/IMG_20250215_112451@0.5x.jpg",
+            "images/valentine/IMG_20250215_112451.webp",
+            "images/valentine/IMG_20250215_112451.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/IMG_20250215_112453.jpg",
+            "IMG_20250215_112453.jpg"
+          ],
+          "src": [
+            "images/valentine/IMG_20250215_112453@0.5x.webp",
+            "images/valentine/IMG_20250215_112453@0.5x.jpg",
+            "images/valentine/IMG_20250215_112453.webp",
+            "images/valentine/IMG_20250215_112453.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/IMG_20250215_112455.jpg",
+            "IMG_20250215_112455.jpg"
+          ],
+          "src": [
+            "images/valentine/IMG_20250215_112455@0.5x.webp",
+            "images/valentine/IMG_20250215_112455@0.5x.jpg",
+            "images/valentine/IMG_20250215_112455.webp",
+            "images/valentine/IMG_20250215_112455.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/IMG_20250222_151350.jpg",
+            "IMG_20250222_151350.jpg"
+          ],
+          "src": [
+            "images/valentine/IMG_20250222_151350@0.5x.webp",
+            "images/valentine/IMG_20250222_151350@0.5x.jpg",
+            "images/valentine/IMG_20250222_151350.webp",
+            "images/valentine/IMG_20250222_151350.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/IMG_20250309_215407.jpg",
+            "IMG_20250309_215407.jpg"
+          ],
+          "src": [
+            "images/valentine/IMG_20250309_215407@0.5x.webp",
+            "images/valentine/IMG_20250309_215407@0.5x.jpg",
+            "images/valentine/IMG_20250309_215407.webp",
+            "images/valentine/IMG_20250309_215407.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/IMG_20250330_162845.jpg",
+            "IMG_20250330_162845.jpg"
+          ],
+          "src": [
+            "images/valentine/IMG_20250330_162845@0.5x.webp",
+            "images/valentine/IMG_20250330_162845@0.5x.jpg",
+            "images/valentine/IMG_20250330_162845.webp",
+            "images/valentine/IMG_20250330_162845.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/IMG_20250330_162849.jpg",
+            "IMG_20250330_162849.jpg"
+          ],
+          "src": [
+            "images/valentine/IMG_20250330_162849@0.5x.webp",
+            "images/valentine/IMG_20250330_162849@0.5x.jpg",
+            "images/valentine/IMG_20250330_162849.webp",
+            "images/valentine/IMG_20250330_162849.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/IMG_20250726_143654.jpg",
+            "IMG_20250726_143654.jpg"
+          ],
+          "src": [
+            "images/valentine/IMG_20250726_143654@0.5x.webp",
+            "images/valentine/IMG_20250726_143654@0.5x.jpg",
+            "images/valentine/IMG_20250726_143654.webp",
+            "images/valentine/IMG_20250726_143654.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/IMG_20250726_143700.jpg",
+            "IMG_20250726_143700.jpg"
+          ],
+          "src": [
+            "images/valentine/IMG_20250726_143700@0.5x.webp",
+            "images/valentine/IMG_20250726_143700@0.5x.jpg",
+            "images/valentine/IMG_20250726_143700.webp",
+            "images/valentine/IMG_20250726_143700.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/IMG_20250726_145138.jpg",
+            "IMG_20250726_145138.jpg"
+          ],
+          "src": [
+            "images/valentine/IMG_20250726_145138@0.5x.webp",
+            "images/valentine/IMG_20250726_145138@0.5x.jpg",
+            "images/valentine/IMG_20250726_145138.webp",
+            "images/valentine/IMG_20250726_145138.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/IMG_20250727_123937.jpg",
+            "IMG_20250727_123937.jpg"
+          ],
+          "src": [
+            "images/valentine/IMG_20250727_123937@0.5x.webp",
+            "images/valentine/IMG_20250727_123937@0.5x.jpg",
+            "images/valentine/IMG_20250727_123937.webp",
+            "images/valentine/IMG_20250727_123937.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/IMG_20250727_124007.jpg",
+            "IMG_20250727_124007.jpg"
+          ],
+          "src": [
+            "images/valentine/IMG_20250727_124007@0.5x.webp",
+            "images/valentine/IMG_20250727_124007@0.5x.jpg",
+            "images/valentine/IMG_20250727_124007.webp",
+            "images/valentine/IMG_20250727_124007.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/airplane_down.jpg",
+            "airplane_down.jpg"
+          ],
+          "src": [
+            "images/valentine/airplane_down@0.5x.webp",
+            "images/valentine/airplane_down@0.5x.jpg",
+            "images/valentine/airplane_down.webp",
+            "images/valentine/airplane_down.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/airplane_down.png",
+            "airplane_down.png"
+          ],
+          "src": [
+            "images/valentine/airplane_down@0.5x.webp",
+            "images/valentine/airplane_down@0.5x.png",
+            "images/valentine/airplane_down.webp",
+            "images/valentine/airplane_down.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/airplane_moving.jpg",
+            "airplane_moving.jpg"
+          ],
+          "src": [
+            "images/valentine/airplane_moving@0.5x.webp",
+            "images/valentine/airplane_moving@0.5x.jpg",
+            "images/valentine/airplane_moving.webp",
+            "images/valentine/airplane_moving.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/airplane_moving.png",
+            "airplane_moving.png"
+          ],
+          "src": [
+            "images/valentine/airplane_moving@0.5x.webp",
+            "images/valentine/airplane_moving@0.5x.png",
+            "images/valentine/airplane_moving.webp",
+            "images/valentine/airplane_moving.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/airplane_moving_flipped.png",
+            "airplane_moving_flipped.png"
+          ],
+          "src": [
+            "images/valentine/airplane_moving_flipped@0.5x.webp",
+            "images/valentine/airplane_moving_flipped@0.5x.png",
+            "images/valentine/airplane_moving_flipped.webp",
+            "images/valentine/airplane_moving_flipped.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/departure_area.jpg",
+            "departure_area.jpg"
+          ],
+          "src": [
+            "images/valentine/departure_area@0.5x.webp",
+            "images/valentine/departure_area@0.5x.jpg",
+            "images/valentine/departure_area.webp",
+            "images/valentine/departure_area.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/gi_cachorro_quente.jpg",
+            "gi_cachorro_quente.jpg"
+          ],
+          "src": [
+            "images/valentine/gi_cachorro_quente@0.5x.webp",
+            "images/valentine/gi_cachorro_quente@0.5x.jpg",
+            "images/valentine/gi_cachorro_quente.webp",
+            "images/valentine/gi_cachorro_quente.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/gi_kebab_linda.jpg",
+            "gi_kebab_linda.jpg"
+          ],
+          "src": [
+            "images/valentine/gi_kebab_linda@0.5x.webp",
+            "images/valentine/gi_kebab_linda@0.5x.jpg",
+            "images/valentine/gi_kebab_linda.webp",
+            "images/valentine/gi_kebab_linda.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/gi_kebab_linda_transparent.png",
+            "gi_kebab_linda_transparent.png"
+          ],
+          "src": [
+            "images/valentine/gi_kebab_linda_transparent@0.5x.webp",
+            "images/valentine/gi_kebab_linda_transparent@0.5x.png",
+            "images/valentine/gi_kebab_linda_transparent.webp",
+            "images/valentine/gi_kebab_linda_transparent.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        }
+      ]
+    },
+    {
+      "name": "game-screen",
+      "assets": [
+        {
+          "alias": [
+            "images/game-screen",
+            "game-screen"
+          ],
+          "src": [
+            "images/game-screen@0.5x.webp.json",
+            "images/game-screen@0.5x.png.json",
+            "images/game-screen.webp.json",
+            "images/game-screen.png.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
+              "tps": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "pause-overlay",
+      "assets": [
+        {
+          "alias": [
+            "images/pause-overlay/pause-panel.png",
+            "pause-panel.png"
+          ],
+          "src": [
+            "images/pause-overlay/pause-panel@0.5x.webp",
+            "images/pause-overlay/pause-panel@0.5x.png",
+            "images/pause-overlay/pause-panel.webp",
+            "images/pause-overlay/pause-panel.png"
+          ],
+          "data": {
+            "tags": {
+              "m": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "preload",
+      "assets": [
+        {
+          "alias": [
+            "images/preload",
+            "preload"
+          ],
+          "src": [
+            "images/preload@0.5x.webp.json",
+            "images/preload@0.5x.png.json",
+            "images/preload.webp.json",
+            "images/preload.png.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
+              "tps": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "results-screen",
+      "assets": [
+        {
+          "alias": [
+            "images/results-screen",
+            "results-screen"
+          ],
+          "src": [
+            "images/results-screen@0.5x.webp.json",
+            "images/results-screen@0.5x.png.json",
+            "images/results-screen.webp.json",
+            "images/results-screen.png.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
+              "tps": true
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "title-screen",
+      "assets": [
+        {
+          "alias": [
+            "images/title-screen",
+            "title-screen"
+          ],
+          "src": [
+            "images/title-screen@0.5x.webp.json",
+            "images/title-screen@0.5x.png.json",
+            "images/title-screen.webp.json",
+            "images/title-screen.png.json"
+          ],
+          "data": {
+            "tags": {
+              "m": true,
+              "tps": true
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

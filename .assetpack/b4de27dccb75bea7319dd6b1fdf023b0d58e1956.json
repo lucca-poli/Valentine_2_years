@@ -1,0 +1,4588 @@
+{
+    "assets": {
+        "/home/lucca/Documents/Projects/valentine/raw-assets": {
+            "isFolder": true,
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727985316,
+                "duration": 2.0881239999999934,
+                "success": true
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/audio": {
+            "isFolder": true,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727985317,
+                "duration": 1.65379200000001,
+                "success": true
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/audio/bubble-land-sfx.wav": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727985317,
+                "duration": 210.88960699999996,
+                "success": true
+            },
+            "hash": "pwu-yA"
+        },
+        ".assetpack/audio/audio/bubble-land-sfx.mp3": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio/bubble-land-sfx.wav",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/audio/bubble-land-sfx.mp3": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/audio/bubble-land-sfx.mp3",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/audio/audio/bubble-land-sfx.ogg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio/bubble-land-sfx.wav",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/audio/bubble-land-sfx.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/audio/bubble-land-sfx.ogg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/audio/bubbles-falling.wav": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727985318,
+                "duration": 244.91679499999998,
+                "success": true
+            },
+            "hash": "oCb9"
+        },
+        ".assetpack/audio/audio/bubbles-falling.mp3": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio/bubbles-falling.wav",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/audio/bubbles-falling.mp3": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/audio/bubbles-falling.mp3",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/audio/audio/bubbles-falling.ogg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio/bubbles-falling.wav",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/audio/bubbles-falling.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/audio/bubbles-falling.ogg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/audio/bubbo-bubbo-bg-music.wav": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727985318,
+                "duration": 3895.6792530000002,
+                "success": true
+            },
+            "hash": "hh782A"
+        },
+        ".assetpack/audio/audio/bubbo-bubbo-bg-music.mp3": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio/bubbo-bubbo-bg-music.wav",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/audio/bubbo-bubbo-bg-music.mp3": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/audio/bubbo-bubbo-bg-music.mp3",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/audio/audio/bubbo-bubbo-bg-music.ogg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio/bubbo-bubbo-bg-music.wav",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/audio/bubbo-bubbo-bg-music.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/audio/bubbo-bubbo-bg-music.ogg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/audio/cannon-move.wav": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727985318,
+                "duration": 192.72352500000005,
+                "success": true
+            },
+            "hash": "cjxwmA"
+        },
+        ".assetpack/audio/audio/cannon-move.mp3": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio/cannon-move.wav",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/audio/cannon-move.mp3": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/audio/cannon-move.mp3",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/audio/audio/cannon-move.ogg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio/cannon-move.wav",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/audio/cannon-move.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/audio/cannon-move.ogg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/audio/powerup-bomb.wav": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727985319,
+                "duration": 288.78477899999996,
+                "success": true
+            },
+            "hash": "Hj00"
+        },
+        ".assetpack/audio/audio/powerup-bomb.mp3": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio/powerup-bomb.wav",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/audio/powerup-bomb.mp3": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/audio/powerup-bomb.mp3",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/audio/audio/powerup-bomb.ogg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio/powerup-bomb.wav",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/audio/powerup-bomb.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/audio/powerup-bomb.ogg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/audio/powerup-super.wav": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727985511,
+                "duration": 76.45471399999997,
+                "success": true
+            },
+            "hash": "-CC2Jw"
+        },
+        ".assetpack/audio/audio/powerup-super.mp3": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio/powerup-super.wav",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/audio/powerup-super.mp3": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/audio/powerup-super.mp3",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/audio/audio/powerup-super.ogg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio/powerup-super.wav",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/audio/powerup-super.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/audio/powerup-super.ogg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/audio/powerup-time.wav": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727985528,
+                "duration": 798.1518609999999,
+                "success": true
+            },
+            "hash": "0pYWUQ"
+        },
+        ".assetpack/audio/audio/powerup-time.mp3": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio/powerup-time.wav",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/audio/powerup-time.mp3": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/audio/powerup-time.mp3",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/audio/audio/powerup-time.ogg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio/powerup-time.wav",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/audio/powerup-time.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/audio/powerup-time.ogg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/audio/primary-button-press.wav": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727985563,
+                "duration": 750.812392,
+                "success": true
+            },
+            "hash": "tNhwEw"
+        },
+        ".assetpack/audio/audio/primary-button-press.mp3": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio/primary-button-press.wav",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/audio/primary-button-press.mp3": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/audio/primary-button-press.mp3",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/audio/audio/primary-button-press.ogg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio/primary-button-press.wav",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/audio/primary-button-press.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/audio/primary-button-press.ogg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/audio/secondary-button-press.wav": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727985588,
+                "duration": 737.183203,
+                "success": true
+            },
+            "hash": "4BkXsw"
+        },
+        ".assetpack/audio/audio/secondary-button-press.mp3": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio/secondary-button-press.wav",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/audio/secondary-button-press.mp3": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/audio/secondary-button-press.mp3",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/audio/audio/secondary-button-press.ogg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/audio/secondary-button-press.wav",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/audio/secondary-button-press.ogg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/audio/audio/secondary-button-press.ogg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/fonts": {
+            "isFolder": true,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727985608,
+                "duration": 0.06132600000000821,
+                "success": true
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/fonts/Bungee-Regular{wf}.ttf": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/fonts",
+            "metaData": {
+                "wf": true,
+                "family": "Bungee-Regular"
+            },
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727985608,
+                "duration": 326.749454,
+                "success": true
+            },
+            "hash": "cAr2jA"
+        },
+        ".assetpack/webfont/fonts/Bungee-Regular{wf}.woff2": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/fonts/Bungee-Regular{wf}.ttf",
+            "metaData": {
+                "wf": true
+            },
+            "inheritedMetaData": {
+                "wf": true,
+                "family": "Bungee-Regular"
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/fonts/Bungee-Regular.woff2": {
+            "isFolder": false,
+            "transformParent": ".assetpack/webfont/fonts/Bungee-Regular{wf}.woff2",
+            "metaData": {},
+            "inheritedMetaData": {
+                "wf": true,
+                "family": "Bungee-Regular"
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/fonts/OpenSans-SemiBold{wf}.ttf": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/fonts",
+            "metaData": {
+                "wf": true,
+                "family": "OpenSans-SemiBold"
+            },
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727985935,
+                "duration": 366.4892299999999,
+                "success": true
+            },
+            "hash": "UirUJg"
+        },
+        ".assetpack/webfont/fonts/OpenSans-SemiBold{wf}.woff2": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/fonts/OpenSans-SemiBold{wf}.ttf",
+            "metaData": {
+                "wf": true
+            },
+            "inheritedMetaData": {
+                "wf": true,
+                "family": "OpenSans-SemiBold"
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/fonts/OpenSans-SemiBold.woff2": {
+            "isFolder": false,
+            "transformParent": ".assetpack/webfont/fonts/OpenSans-SemiBold{wf}.woff2",
+            "metaData": {},
+            "inheritedMetaData": {
+                "wf": true,
+                "family": "OpenSans-SemiBold"
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images": {
+            "isFolder": true,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727986302,
+                "duration": 0.05515500000001339,
+                "success": true
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/favicon.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727986302,
+                "duration": 38.43501500000002,
+                "success": true
+            },
+            "hash": "-oDk"
+        },
+        ".assetpack/mipmap/images/favicon.png": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/favicon.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/favicon.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/favicon.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/favicon.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/favicon.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/favicon.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/favicon.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/favicon.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/favicon.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/favicon@0.5x.png": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/favicon.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/favicon@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/favicon@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/favicon@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/favicon@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/favicon@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/favicon@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/favicon@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/favicon@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}": {
+            "isFolder": true,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images",
+            "metaData": {
+                "m": true,
+                "tps": true
+            },
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727986313,
+                "duration": 1689.802188,
+                "success": true
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}/bottom-tray.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "tOZFcA"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}/bubble-bomb.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "hODTcg"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}/bubble-glow.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "RrYD-Q"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}/bubble-reserve-base.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "ZAf3tg"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}/bubble-reserve-ring.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "EBoRxQ"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}/bubble-super.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "fmoSrA"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}/bubble-timer.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "VcQ_KA"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}/button-flat-small.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "jJW-Qg"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}/button-flat.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "gvFHvg"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}/game-side-border.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "RTOrbw"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}/icon-pause.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "49kLQw"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}/info-bg.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "Sw_h1g"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}/laser-line-glow.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "Po2bzQ"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}/laser-line.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "0WnmCg"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}/panel-small-instructions.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "_x22vw"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}/rounded-tray.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "SHw-Tg"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}/satellite.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "fYMu2w"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}/shot-visualiser.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "F5g2AQ"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}/top-tray.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "7YA0NA"
+        },
+        ".assetpack/texture-packer/images/game-screen@0.5x.png": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {
+                "mIgnore": true,
+                "nomip": true
+            },
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/compress/images/game-screen@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/game-screen@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/game-screen@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/game-screen@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/compress/images/game-screen@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/game-screen@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/game-screen@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/game-screen@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/texture-packer/images/game-screen@0.5x.json": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/images/game-screen@0.5x.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/game-screen@0.5x.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/images/game-screen@0.5x.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/images/game-screen@0.5x.png.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/game-screen@0.5x.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/images/game-screen@0.5x.png.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/images/game-screen@0.5x.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/game-screen@0.5x.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/images/game-screen@0.5x.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/images/game-screen@0.5x.webp.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/game-screen@0.5x.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/images/game-screen@0.5x.webp.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer/images/game-screen.png": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {
+                "mIgnore": true,
+                "nomip": true
+            },
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/compress/images/game-screen.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/game-screen.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/game-screen.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/game-screen.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/compress/images/game-screen.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/game-screen.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/game-screen.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/game-screen.webp",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/texture-packer/images/game-screen.json": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/game-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/images/game-screen.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/game-screen.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/images/game-screen.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/images/game-screen.png.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/game-screen.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/images/game-screen.png.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/images/game-screen.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/game-screen.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/images/game-screen.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/images/game-screen.webp.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/game-screen.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/images/game-screen.webp.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/pause-overlay{m}": {
+            "isFolder": true,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images",
+            "metaData": {
+                "m": true
+            },
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727986325,
+                "duration": 0.0669669999999769,
+                "success": true
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/pause-overlay{m}/pause-panel.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/pause-overlay{m}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true
+            },
+            "transformData": {},
+            "stats": {
+                "date": 1772727986325,
+                "duration": 290.97021799999993,
+                "success": true
+            },
+            "hash": "9ekzRg"
+        },
+        ".assetpack/mipmap/images/pause-overlay{m}/pause-panel.png": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/pause-overlay{m}/pause-panel.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/compress/images/pause-overlay{m}/pause-panel.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/pause-overlay{m}/pause-panel.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/pause-overlay/pause-panel.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/pause-overlay{m}/pause-panel.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/compress/images/pause-overlay{m}/pause-panel.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/pause-overlay{m}/pause-panel.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/pause-overlay/pause-panel.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/pause-overlay{m}/pause-panel.webp",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/pause-overlay{m}/pause-panel@0.5x.png": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/pause-overlay{m}/pause-panel.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/compress/images/pause-overlay{m}/pause-panel@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/pause-overlay{m}/pause-panel@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/pause-overlay/pause-panel@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/pause-overlay{m}/pause-panel@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/compress/images/pause-overlay{m}/pause-panel@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/pause-overlay{m}/pause-panel@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/pause-overlay/pause-panel@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/pause-overlay{m}/pause-panel@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}": {
+            "isFolder": true,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images",
+            "metaData": {
+                "m": true,
+                "tps": true
+            },
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727986326,
+                "duration": 1083.2201550000002,
+                "success": true
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}/background-tile.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "IuRliQ"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}/bubble-blue.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "u2x-Hw"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}/bubble-green.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "G8erEQ"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}/bubble-red.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "n2mj"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}/bubble-shadow.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "p7eVQA"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}/bubble-shine.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "h22eJw"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}/bubble-yellow.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "4p0ENQ"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}/cannon-arrow.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "MO5KRw"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}/cannon-barrel.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "wzl9IQ"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}/cannon-main.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "jKeyAA"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}/cannon-top.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "5VtjtQ"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}/loading-circle.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "3vDXnA"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}/pixi-logo.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "eZZ48Q"
+        },
+        ".assetpack/texture-packer/images/preload@0.5x.png": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}",
+            "metaData": {
+                "mIgnore": true,
+                "nomip": true
+            },
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/compress/images/preload@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/preload@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/preload@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/preload@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/compress/images/preload@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/preload@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/preload@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/preload@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/texture-packer/images/preload@0.5x.json": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/images/preload@0.5x.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/preload@0.5x.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/images/preload@0.5x.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/images/preload@0.5x.png.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/preload@0.5x.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/images/preload@0.5x.png.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/images/preload@0.5x.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/preload@0.5x.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/images/preload@0.5x.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/images/preload@0.5x.webp.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/preload@0.5x.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/images/preload@0.5x.webp.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer/images/preload.png": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}",
+            "metaData": {
+                "mIgnore": true,
+                "nomip": true
+            },
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/compress/images/preload.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/preload.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/preload.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/preload.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/compress/images/preload.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/preload.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/preload.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/preload.webp",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/texture-packer/images/preload.json": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/preload{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/images/preload.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/preload.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/images/preload.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/images/preload.png.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/preload.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/images/preload.png.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/images/preload.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/preload.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/images/preload.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/images/preload.webp.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/preload.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/images/preload.webp.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/results-screen{m}{tps}": {
+            "isFolder": true,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images",
+            "metaData": {
+                "m": true,
+                "tps": true
+            },
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727986340,
+                "duration": 1320.998363,
+                "success": true
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/results-screen{m}{tps}/icon-back.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/results-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "J0uwJA"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/results-screen{m}{tps}/panel-end-screen-base.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/results-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "RqDZuw"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/results-screen{m}{tps}/panel-end-screen-points-breakdown.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/results-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "4G5c0w"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/results-screen{m}{tps}/panel-end-screen-points-total.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/results-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "wTqPHg"
+        },
+        ".assetpack/texture-packer/images/results-screen.png": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/results-screen{m}{tps}",
+            "metaData": {
+                "mIgnore": true,
+                "nomip": true
+            },
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/compress/images/results-screen.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/results-screen.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/results-screen.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/results-screen.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/compress/images/results-screen.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/results-screen.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/results-screen.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/results-screen.webp",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/texture-packer/images/results-screen.json": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/results-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/images/results-screen.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/results-screen.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/images/results-screen.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/images/results-screen.png.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/results-screen.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/images/results-screen.png.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/images/results-screen.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/results-screen.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/images/results-screen.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/images/results-screen.webp.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/results-screen.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/images/results-screen.webp.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer/images/results-screen@0.5x.png": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/results-screen{m}{tps}",
+            "metaData": {
+                "mIgnore": true,
+                "nomip": true
+            },
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/compress/images/results-screen@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/results-screen@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/results-screen@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/results-screen@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/compress/images/results-screen@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/results-screen@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/results-screen@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/results-screen@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/texture-packer/images/results-screen@0.5x.json": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/results-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/images/results-screen@0.5x.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/results-screen@0.5x.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/images/results-screen@0.5x.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/images/results-screen@0.5x.png.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/results-screen@0.5x.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/images/results-screen@0.5x.png.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/images/results-screen@0.5x.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/results-screen@0.5x.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/images/results-screen@0.5x.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/images/results-screen@0.5x.webp.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/results-screen@0.5x.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/images/results-screen@0.5x.webp.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/title-screen{m}{tps}": {
+            "isFolder": true,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images",
+            "metaData": {
+                "m": true,
+                "tps": true
+            },
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727986617,
+                "duration": 1855.492643,
+                "success": true
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/title-screen{m}{tps}/background-tile-space.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/title-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "nnSDHg"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/title-screen{m}{tps}/icon-sound-off.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/title-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "JUub_Q"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/title-screen{m}{tps}/icon-sound-on.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/title-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "TmpESw"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/title-screen{m}{tps}/pixi-btn-down.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/title-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "vXha3A"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/title-screen{m}{tps}/pixi-btn-up.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/title-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "zgbIGw"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/title-screen{m}{tps}/play-btn-down.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/title-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "mxL2Sw"
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/title-screen{m}{tps}/play-btn-up.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/title-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {},
+            "hash": "IIl8PQ"
+        },
+        ".assetpack/texture-packer/images/title-screen.png": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/title-screen{m}{tps}",
+            "metaData": {
+                "mIgnore": true,
+                "nomip": true
+            },
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/compress/images/title-screen.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/title-screen.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/title-screen.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/title-screen.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/compress/images/title-screen.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/title-screen.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/title-screen.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/title-screen.webp",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/texture-packer/images/title-screen.json": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/title-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/images/title-screen.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/title-screen.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/images/title-screen.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/images/title-screen.png.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/title-screen.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/images/title-screen.png.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/images/title-screen.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/title-screen.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/images/title-screen.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/images/title-screen.webp.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/title-screen.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/images/title-screen.webp.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer/images/title-screen@0.5x.png": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/title-screen{m}{tps}",
+            "metaData": {
+                "mIgnore": true,
+                "nomip": true
+            },
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/compress/images/title-screen@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/title-screen@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/title-screen@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/title-screen@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/compress/images/title-screen@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/title-screen@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/title-screen@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/title-screen@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true,
+                "mIgnore": true,
+                "nomip": true
+            },
+            "transformData": {}
+        },
+        ".assetpack/texture-packer/images/title-screen@0.5x.json": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/title-screen{m}{tps}",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/images/title-screen@0.5x.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/title-screen@0.5x.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/images/title-screen@0.5x.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/images/title-screen@0.5x.png.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/title-screen@0.5x.png.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/images/title-screen@0.5x.png.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/texture-packer-compress/images/title-screen@0.5x.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer/images/title-screen@0.5x.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        ".assetpack/json/images/title-screen@0.5x.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/texture-packer-compress/images/title-screen@0.5x.webp.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/title-screen@0.5x.webp.json": {
+            "isFolder": false,
+            "transformParent": ".assetpack/json/images/title-screen@0.5x.webp.json",
+            "metaData": {},
+            "inheritedMetaData": {
+                "m": true,
+                "tps": true
+            },
+            "transformData": {
+                "page": 0
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine": {
+            "isFolder": true,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727987409,
+                "duration": 0.07061400000020512,
+                "success": true
+            }
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20240929_153022.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727987409,
+                "duration": 3258.476168,
+                "success": true
+            },
+            "hash": "sOhDDA"
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20240929_153022.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20240929_153022.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20240929_153022.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20240929_153022.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20240929_153022.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20240929_153022.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20240929_153022.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20240929_153022.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20240929_153022.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20240929_153022.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20240929_153022@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20240929_153022.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20240929_153022@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20240929_153022@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20240929_153022@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20240929_153022@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20240929_153022@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20240929_153022@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20240929_153022@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20240929_153022@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20241120_141945.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727987661,
+                "duration": 3382.7182729999995,
+                "success": true
+            },
+            "hash": "xgYwpA"
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20241120_141945.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20241120_141945.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20241120_141945.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20241120_141945.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20241120_141945.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20241120_141945.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20241120_141945.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20241120_141945.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20241120_141945.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20241120_141945.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20241120_141945@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20241120_141945.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20241120_141945@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20241120_141945@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20241120_141945@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20241120_141945@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20241120_141945@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20241120_141945@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20241120_141945@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20241120_141945@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20241231_122557.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727988004,
+                "duration": 4529.076994999999,
+                "success": true
+            },
+            "hash": "EnzSXQ"
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20241231_122557.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20241231_122557.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20241231_122557.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20241231_122557.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20241231_122557.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20241231_122557.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20241231_122557.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20241231_122557.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20241231_122557.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20241231_122557.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20241231_122557@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20241231_122557.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20241231_122557@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20241231_122557@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20241231_122557@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20241231_122557@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20241231_122557@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20241231_122557@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20241231_122557@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20241231_122557@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250108_173246.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727988473,
+                "duration": 4780.552840999999,
+                "success": true
+            },
+            "hash": "6-I1vQ"
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250108_173246.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250108_173246.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250108_173246.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250108_173246.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250108_173246.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250108_173246.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250108_173246.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250108_173246.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250108_173246.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250108_173246.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250108_173246@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250108_173246.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250108_173246@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250108_173246@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250108_173246@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250108_173246@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250108_173246@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250108_173246@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250108_173246@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250108_173246@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250108_173255.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727989214,
+                "duration": 4797.315666,
+                "success": true
+            },
+            "hash": "PhehNQ"
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250108_173255.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250108_173255.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250108_173255.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250108_173255.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250108_173255.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250108_173255.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250108_173255.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250108_173255.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250108_173255.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250108_173255.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250108_173255@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250108_173255.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250108_173255@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250108_173255@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250108_173255@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250108_173255@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250108_173255@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250108_173255@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250108_173255@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250108_173255@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250110_104844.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727990668,
+                "duration": 6008.985278,
+                "success": true
+            },
+            "hash": "p1twYA"
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250110_104844.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250110_104844.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250110_104844.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250110_104844.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250110_104844.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250110_104844.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250110_104844.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250110_104844.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250110_104844.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250110_104844.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250110_104844@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250110_104844.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250110_104844@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250110_104844@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250110_104844@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250110_104844@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250110_104844@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250110_104844@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250110_104844@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250110_104844@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250215_112451.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727991044,
+                "duration": 5491.741330999999,
+                "success": true
+            },
+            "hash": "XE8Wsg"
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250215_112451.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250215_112451.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250215_112451.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250215_112451.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250215_112451.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250215_112451.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250215_112451.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250215_112451.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250215_112451.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250215_112451.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250215_112451@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250215_112451.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250215_112451@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250215_112451@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250215_112451@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250215_112451@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250215_112451@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250215_112451@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250215_112451@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250215_112451@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250215_112453.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727992533,
+                "duration": 5178.021282000001,
+                "success": true
+            },
+            "hash": "fczIZw"
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250215_112453.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250215_112453.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250215_112453.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250215_112453.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250215_112453.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250215_112453.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250215_112453.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250215_112453.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250215_112453.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250215_112453.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250215_112453@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250215_112453.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250215_112453@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250215_112453@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250215_112453@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250215_112453@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250215_112453@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250215_112453@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250215_112453@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250215_112453@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250215_112455.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727993253,
+                "duration": 6434.136434,
+                "success": true
+            },
+            "hash": "T0xtcw"
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250215_112455.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250215_112455.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250215_112455.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250215_112455.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250215_112455.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250215_112455.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250215_112455.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250215_112455.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250215_112455.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250215_112455.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250215_112455@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250215_112455.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250215_112455@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250215_112455@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250215_112455@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250215_112455@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250215_112455@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250215_112455@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250215_112455@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250215_112455@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250222_151350.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727994011,
+                "duration": 6298.071802999999,
+                "success": true
+            },
+            "hash": "FIBmjQ"
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250222_151350.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250222_151350.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250222_151350.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250222_151350.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250222_151350.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250222_151350.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250222_151350.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250222_151350.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250222_151350.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250222_151350.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250222_151350@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250222_151350.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250222_151350@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250222_151350@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250222_151350@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250222_151350@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250222_151350@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250222_151350@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250222_151350@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250222_151350@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250309_215407.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727996536,
+                "duration": 5706.881125,
+                "success": true
+            },
+            "hash": "_IziiQ"
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250309_215407.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250309_215407.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250309_215407.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250309_215407.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250309_215407.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250309_215407.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250309_215407.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250309_215407.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250309_215407.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250309_215407.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250309_215407@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250309_215407.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250309_215407@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250309_215407@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250309_215407@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250309_215407@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250309_215407@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250309_215407@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250309_215407@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250309_215407@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250330_162845.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727996677,
+                "duration": 6493.999329999999,
+                "success": true
+            },
+            "hash": "kGHaDw"
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250330_162845.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250330_162845.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250330_162845.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250330_162845.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250330_162845.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250330_162845.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250330_162845.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250330_162845.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250330_162845.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250330_162845.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250330_162845@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250330_162845.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250330_162845@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250330_162845@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250330_162845@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250330_162845@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250330_162845@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250330_162845@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250330_162845@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250330_162845@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250330_162849.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727997711,
+                "duration": 6079.749902000001,
+                "success": true
+            },
+            "hash": "ODto1g"
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250330_162849.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250330_162849.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250330_162849.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250330_162849.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250330_162849.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250330_162849.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250330_162849.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250330_162849.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250330_162849.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250330_162849.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250330_162849@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250330_162849.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250330_162849@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250330_162849@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250330_162849@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250330_162849@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250330_162849@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250330_162849@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250330_162849@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250330_162849@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250726_143654.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772727999688,
+                "duration": 6336.924136000001,
+                "success": true
+            },
+            "hash": "WY9iXA"
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250726_143654.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250726_143654.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250726_143654.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250726_143654.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250726_143654.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250726_143654.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250726_143654.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250726_143654.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250726_143654.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250726_143654.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250726_143654@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250726_143654.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250726_143654@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250726_143654@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250726_143654@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250726_143654@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250726_143654@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250726_143654@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250726_143654@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250726_143654@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250726_143700.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772728000310,
+                "duration": 6437.547256000002,
+                "success": true
+            },
+            "hash": "5icpDA"
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250726_143700.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250726_143700.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250726_143700.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250726_143700.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250726_143700.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250726_143700.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250726_143700.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250726_143700.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250726_143700.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250726_143700.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250726_143700@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250726_143700.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250726_143700@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250726_143700@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250726_143700@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250726_143700@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250726_143700@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250726_143700@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250726_143700@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250726_143700@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250726_145138.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772728002243,
+                "duration": 5223.566108999999,
+                "success": true
+            },
+            "hash": "yACO7A"
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250726_145138.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250726_145138.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250726_145138.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250726_145138.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250726_145138.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250726_145138.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250726_145138.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250726_145138.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250726_145138.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250726_145138.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250726_145138@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250726_145138.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250726_145138@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250726_145138@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250726_145138@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250726_145138@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250726_145138@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250726_145138@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250726_145138@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250726_145138@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250727_123937.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772728003172,
+                "duration": 6121.134115999997,
+                "success": true
+            },
+            "hash": "7hvU9Q"
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250727_123937.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250727_123937.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250727_123937.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250727_123937.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250727_123937.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250727_123937.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250727_123937.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250727_123937.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250727_123937.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250727_123937.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250727_123937@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250727_123937.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250727_123937@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250727_123937@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250727_123937@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250727_123937@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250727_123937@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250727_123937@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250727_123937@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250727_123937@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250727_124007.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772728003791,
+                "duration": 6025.713539,
+                "success": true
+            },
+            "hash": "Kiidzw"
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250727_124007.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250727_124007.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250727_124007.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250727_124007.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250727_124007.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250727_124007.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250727_124007.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250727_124007.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250727_124007.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250727_124007.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/IMG_20250727_124007@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/IMG_20250727_124007.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250727_124007@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250727_124007@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250727_124007@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250727_124007@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/IMG_20250727_124007@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/IMG_20250727_124007@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/IMG_20250727_124007@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/IMG_20250727_124007@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/airplane_down.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772728006025,
+                "duration": 1759.8827350000029,
+                "success": true
+            },
+            "hash": "nyK03A"
+        },
+        ".assetpack/mipmap/images/valentine/airplane_down.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/airplane_down.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/airplane_down.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/airplane_down.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/airplane_down.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/airplane_down.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/airplane_down.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/airplane_down.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/airplane_down.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/airplane_down.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/airplane_down@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/airplane_down.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/airplane_down@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/airplane_down@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/airplane_down@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/airplane_down@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/airplane_down@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/airplane_down@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/airplane_down@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/airplane_down@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/airplane_down.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772728006748,
+                "duration": 1183.8946810000016,
+                "success": true
+            },
+            "hash": "2t54wg"
+        },
+        ".assetpack/mipmap/images/valentine/airplane_down.png": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/airplane_down.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/airplane_down.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/airplane_down.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/airplane_down.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/airplane_down.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/airplane_down@0.5x.png": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/airplane_down.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/airplane_down@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/airplane_down@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/airplane_down@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/airplane_down@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/airplane_moving.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772728007467,
+                "duration": 502.73029300000053,
+                "success": true
+            },
+            "hash": "FxCMAQ"
+        },
+        ".assetpack/mipmap/images/valentine/airplane_moving.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/airplane_moving.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/airplane_moving.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/airplane_moving.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/airplane_moving.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/airplane_moving.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/airplane_moving.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/airplane_moving.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/airplane_moving.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/airplane_moving.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/airplane_moving@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/airplane_moving.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/airplane_moving@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/airplane_moving@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/airplane_moving@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/airplane_moving@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/airplane_moving@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/airplane_moving@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/airplane_moving@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/airplane_moving@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/airplane_moving.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772728007785,
+                "duration": 385.8526219999985,
+                "success": true
+            },
+            "hash": "yOg"
+        },
+        ".assetpack/mipmap/images/valentine/airplane_moving.png": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/airplane_moving.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/airplane_moving.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/airplane_moving.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/airplane_moving.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/airplane_moving.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/airplane_moving@0.5x.png": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/airplane_moving.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/airplane_moving@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/airplane_moving@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/airplane_moving@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/airplane_moving@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/airplane_moving_flipped.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772728007932,
+                "duration": 1586.7877689999987,
+                "success": true
+            },
+            "hash": "jMhz_A"
+        },
+        ".assetpack/mipmap/images/valentine/airplane_moving_flipped.png": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/airplane_moving_flipped.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/airplane_moving_flipped.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/airplane_moving_flipped.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/airplane_moving_flipped.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/airplane_moving_flipped.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/airplane_moving_flipped.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/airplane_moving_flipped.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/airplane_moving_flipped.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/airplane_moving_flipped.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/airplane_moving_flipped@0.5x.png": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/airplane_moving_flipped.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/airplane_moving_flipped@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/airplane_moving_flipped@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/airplane_moving_flipped@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/airplane_moving_flipped@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/airplane_moving_flipped@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/airplane_moving_flipped@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/airplane_moving_flipped@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/airplane_moving_flipped@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/departure_area.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772728007970,
+                "duration": 9832.756257999998,
+                "success": true
+            },
+            "hash": "IXtACQ"
+        },
+        ".assetpack/mipmap/images/valentine/departure_area.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/departure_area.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/departure_area.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/departure_area.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/departure_area.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/departure_area.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/departure_area.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/departure_area.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/departure_area.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/departure_area.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/departure_area@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/departure_area.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/departure_area@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/departure_area@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/departure_area@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/departure_area@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/departure_area@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/departure_area@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/departure_area@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/departure_area@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/gi_cachorro_quente.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772728008171,
+                "duration": 4629.522101999999,
+                "success": true
+            },
+            "hash": "nF16wQ"
+        },
+        ".assetpack/mipmap/images/valentine/gi_cachorro_quente.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/gi_cachorro_quente.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/gi_cachorro_quente.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/gi_cachorro_quente.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/gi_cachorro_quente.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/gi_cachorro_quente.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/gi_cachorro_quente.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/gi_cachorro_quente.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/gi_cachorro_quente.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/gi_cachorro_quente.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/gi_cachorro_quente@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/gi_cachorro_quente.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/gi_cachorro_quente@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/gi_cachorro_quente@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/gi_cachorro_quente@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/gi_cachorro_quente@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/gi_cachorro_quente@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/gi_cachorro_quente@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/gi_cachorro_quente@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/gi_cachorro_quente@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/gi_kebab_linda.jpg": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772728009293,
+                "duration": 4909.570593,
+                "success": true
+            },
+            "hash": "FjRx"
+        },
+        ".assetpack/mipmap/images/valentine/gi_kebab_linda.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/gi_kebab_linda.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/gi_kebab_linda.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/gi_kebab_linda.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/gi_kebab_linda.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/gi_kebab_linda.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/gi_kebab_linda.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/gi_kebab_linda.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/gi_kebab_linda.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/gi_kebab_linda.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/gi_kebab_linda@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/gi_kebab_linda.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/gi_kebab_linda@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/gi_kebab_linda@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/gi_kebab_linda@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/gi_kebab_linda@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/gi_kebab_linda@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/gi_kebab_linda@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/gi_kebab_linda@0.5x.jpg": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/gi_kebab_linda@0.5x.jpg",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/gi_kebab_linda_transparent.png": {
+            "isFolder": false,
+            "parent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {},
+            "stats": {
+                "date": 1772728009519,
+                "duration": 1435.3265589999974,
+                "success": true
+            },
+            "hash": "g1WtiQ"
+        },
+        ".assetpack/mipmap/images/valentine/gi_kebab_linda_transparent.png": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/gi_kebab_linda_transparent.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/gi_kebab_linda_transparent.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/gi_kebab_linda_transparent.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/gi_kebab_linda_transparent.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/gi_kebab_linda_transparent.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/gi_kebab_linda_transparent.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/gi_kebab_linda_transparent.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/gi_kebab_linda_transparent.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/gi_kebab_linda_transparent.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/mipmap/images/valentine/gi_kebab_linda_transparent@0.5x.png": {
+            "isFolder": false,
+            "transformParent": "/home/lucca/Documents/Projects/valentine/raw-assets/images/valentine/gi_kebab_linda_transparent.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/gi_kebab_linda_transparent@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/gi_kebab_linda_transparent@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/gi_kebab_linda_transparent@0.5x.png": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/gi_kebab_linda_transparent@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        ".assetpack/compress/images/valentine/gi_kebab_linda_transparent@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/mipmap/images/valentine/gi_kebab_linda_transparent@0.5x.png",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        },
+        "/home/lucca/Documents/Projects/valentine/public/assets/images/valentine/gi_kebab_linda_transparent@0.5x.webp": {
+            "isFolder": false,
+            "transformParent": ".assetpack/compress/images/valentine/gi_kebab_linda_transparent@0.5x.webp",
+            "metaData": {},
+            "inheritedMetaData": {},
+            "transformData": {}
+        }
+    }
+}
