@@ -1,7 +1,8 @@
-import { Assets, Container, Sprite } from 'pixi.js';
+import { Container, Sprite } from 'pixi.js';
 import gsap from 'gsap';
-import { AppScreen } from '../navigation';
+import { AppScreen, navigation } from '../navigation';
 import { app } from '../main';
+import { FlightScreen } from './FlightScreen';
 
 export class IntroScreen extends Container implements AppScreen {
     /** A unique identifier for the screen */
@@ -16,7 +17,6 @@ export class IntroScreen extends Container implements AppScreen {
 
     constructor() {
         super();
-        console.log('IntroScreen: constructor called');
 
         // 1. Add background (airport)
         this._background = Sprite.from('departure_area.jpg');
@@ -38,7 +38,6 @@ export class IntroScreen extends Container implements AppScreen {
         this.player.y = 650; // Now this is the ground level
         this.player.scale.set(0.5);
         this.addChild(this.player);
-        console.log(this.player)
     }
 
     async show() {
@@ -47,7 +46,17 @@ export class IntroScreen extends Container implements AppScreen {
         await this.animateFadeAway();
 
         // Transition to next screen
-        // navigation.showScreen(FlightScreen);
+        navigation.goToScreen(FlightScreen);
+    }
+
+    /** Called when the screen is being hidden. */
+    public async hide() {
+
+        // Kill tweens of the screen container
+        gsap.killTweensOf(this);
+
+        // Tween screen into being invisible
+        await gsap.to(this, { alpha: 0, duration: 0.2, ease: 'linear' });
     }
 
     private async animateJumpSequence() {

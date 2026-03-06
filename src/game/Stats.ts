@@ -7,6 +7,7 @@ import { storage } from '../storage';
 const DEFAULT_STATS = {
     /** Player's total score. */
     score: 0,
+    distance: 0,
     /** Player's highscore. */
     highscore: 0,
     /** How many bubbles the player has dislodged from the level */

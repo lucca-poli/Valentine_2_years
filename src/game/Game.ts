@@ -2,21 +2,21 @@ import gsap from 'gsap';
 import { Point } from 'pixi.js';
 import { Container, Rectangle } from 'pixi.js';
 
-import { navigation } from '../navigation';
-import { ResultScreen } from '../screens/ResultScreen';
+// import { navigation } from '../navigation';
+// import { ResultScreen } from '../screens/ResultScreen';
 import { boardConfig } from './boardConfig';
 import { Stats } from './Stats';
 import { SystemRunner } from './SystemRunner';
-import { AimSystem } from './systems/AimSystem';
-import { CannonSystem } from './systems/CannonSystem';
-import { EffectsSystem } from './systems/EffectsSystem';
-import { HudSystem } from './systems/HudSystem';
-import { LevelSystem } from './systems/LevelSystem';
+// import { AimSystem } from './systems/AimSystem';
+// import { CannonSystem } from './systems/CannonSystem';
+// import { EffectsSystem } from './systems/EffectsSystem';
+// import { HudSystem } from './systems/HudSystem';
+// import { LevelSystem } from './systems/LevelSystem';
 import { PauseSystem } from './systems/PauseSystem';
-import { PhysicsSystem } from './systems/PhysicsSystem';
-import { PowerSystem } from './systems/PowerSystem';
-import { ScoreSystem } from './systems/ScoreSystem';
-import { SpaceDecorSystem } from './systems/SpaceDecorSystem';
+// import { PhysicsSystem } from './systems/PhysicsSystem';
+// import { PowerSystem } from './systems/PowerSystem';
+// import { ScoreSystem } from './systems/ScoreSystem';
+// import { SpaceDecorSystem } from './systems/SpaceDecorSystem';
 
 /** A class that handles all of gameplay based features. */
 export class Game {
@@ -34,9 +34,14 @@ export class Game {
     public stats: Stats;
     /** A flag to determine if the game has reached the "GAMEOVER" state */
     public isGameOver = false;
+    /** A flag to determine if the game has started */
+    public hasStarted = false;
 
     /** The hit area to be used by the `hitContainer`. */
     private readonly _hitArea: Rectangle;
+
+    /** Time elapsed since game started (for sigmoid function) */
+    public timeElapsed = 0;
 
     constructor() {
         this.stage.addChild(this.gameContainer);
@@ -77,16 +82,20 @@ export class Game {
     /** Initialisation point of the Game, used to add systems to the game. */
     public init() {
         // Add systems to system runner
-        this.systems.add(SpaceDecorSystem);
-        this.systems.add(PauseSystem);
-        this.systems.add(PhysicsSystem);
-        this.systems.add(HudSystem);
-        this.systems.add(PowerSystem);
-        this.systems.add(LevelSystem);
-        this.systems.add(AimSystem);
-        this.systems.add(CannonSystem);
-        this.systems.add(EffectsSystem);
-        this.systems.add(ScoreSystem);
+        // this.systems.add(SpaceDecorSystem);
+        // this.systems.add(PauseSystem);
+        // this.systems.add(PhysicsSystem);
+        // this.systems.add(HudSystem);
+        // this.systems.add(PowerSystem);
+        // this.systems.add(LevelSystem);
+        // this.systems.add(AimSystem);
+        // this.systems.add(CannonSystem);
+        // this.systems.add(EffectsSystem);
+        // this.systems.add(ScoreSystem);
+        // this.systems.add(ScrollingSystem);      // Handles parallax scrolling
+        // this.systems.add(AirplaneSystem);       // Handles airplane sprite and movement
+        // this.systems.add(FlightControlSystem);  // Handles spacebar input
+        // this.systems.add(ObstacleSystem);       // Spawns and manages obstacles
 
         // Initialise systems
         this.systems.init();
@@ -102,32 +111,41 @@ export class Game {
 
     /** Starts the game logic. */
     public async start() {
+        this.hasStarted = true;
+        this.timeElapsed = 0;
+        // Animate airplane to cruising altitude
+        // await this.systems.get(AirplaneSystem).takeoff();
         // Call `start()` on the systems.
         this.systems.start();
+
+        console.log('Flight: Game started');
     }
 
     /** Handles the end of the game. */
     public async gameOver() {
+        console.log('Flight: Crashed!');
         // Set game over flag to be true
         this.isGameOver = true;
-        // This includes disabling the AimSystem
-        this.systems.get(AimSystem).enabled(false);
-        // Update the highscore
-        this.systems.get(ScoreSystem).updateHighscore();
-        // Trigger hud slide down animation the HudSystem
-        await this.systems.get(HudSystem).closeHud();
-        // Hide the game container to prevent it from being viewed behind the closed hud when the screen fades out
+
+        // Disable controls
+        // this.systems.get(FlightControlSystem).enabled(false);
+
+        // logic to make a floating text "Press space to play again"  appear and reset if player presses space
+
+        // Reset and try again
         this.gameContainer.visible = false;
         gsap.delayedCall(1, () => {
             // Navigate to the ResultScreen after a 1 second delay
             // Send all relevant user stats
-            navigation.goToScreen(ResultScreen, {
-                score: this.stats.get('score'),
-                popped: this.stats.get('bubblesPopped'),
-                powerups: this.stats.get('powerupsUsed'),
-                combo: this.stats.get('bestCombo'),
-                highscore: this.stats.get('highscore'),
-            });
+            // navigation.goToScreen(ResultScreen, {
+            //     score: this.stats.get('score'),
+            //     popped: this.stats.get('bubblesPopped'),
+            //     powerups: this.stats.get('powerupsUsed'),
+            //     combo: this.stats.get('bestCombo'),
+            //     highscore: this.stats.get('highscore'),
+            // });
+            this.reset();
+            this.awake();
         });
     }
 
@@ -145,18 +163,54 @@ export class Game {
      * @param delta - The time elapsed since the last update.
      */
     public update(delta: number) {
-        if (this.systems.get(PauseSystem).isPaused || this.isGameOver) return;
+        if (!this.hasStarted || this.isGameOver) return;
+
+        // Update time for sigmoid function
+        this.timeElapsed += delta / 60; // Convert to seconds
+
+        // Update systems
         this.systems.update(delta);
+
+        // Check win condition (e.g., distance >= 500)
+        if (this.stats.get('distance') >= 500) {
+            this.reachDestination();
+        }
     }
 
     /** Resets the game to its initial state. */
     public reset() {
         // Set game over flag to be false
         this.isGameOver = false;
+        this.hasStarted = false;
+        this.timeElapsed = 0;
         // Reset the user's stats
         this.stats.reset();
         // Call `reset()` on the systems
         this.systems.reset();
+    }
+
+    /** Handles reaching the destination (win condition). */
+    public async reachDestination() {
+        console.log('Flight: Reached destination!');
+        // Set game over flag to be true
+        this.isGameOver = true;
+
+        // Disable controls
+        // this.systems.get(FlightControlSystem).enabled(false);
+
+        // Optional: Celebratory animation
+        await gsap.to(this.gameContainer, {
+            alpha: 0,
+            duration: 1,
+            ease: 'power2.inOut',
+        });
+
+        // Navigate to ArrivalScreen
+        // gsap.delayedCall(0.5, () => {
+        //     navigation.goToScreen(ArrivalScreen, {
+        //         distance: this.stats.get('distance'),
+        //     });
+        // });
     }
 
     /**

@@ -1,6 +1,6 @@
 import gsap from 'gsap';
 import type { FederatedPointerEvent } from 'pixi.js';
-import { Assets, Container, Graphics, Rectangle, Texture, TilingSprite } from 'pixi.js';
+import { Container, Graphics, Rectangle, Texture, TilingSprite } from 'pixi.js';
 
 import { sfx } from '../audio';
 import { boardConfig, randomType } from '../game/boardConfig';
