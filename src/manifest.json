@@ -571,6 +571,64 @@
           "data": {
             "tags": {}
           }
+        },
+        {
+          "alias": [
+            "images/valentine/sea_waves.png",
+            "sea_waves.png"
+          ],
+          "src": [
+            "images/valentine/sea_waves@0.5x.webp",
+            "images/valentine/sea_waves@0.5x.png",
+            "images/valentine/sea_waves.webp",
+            "images/valentine/sea_waves.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/sea_waves.webp",
+            "sea_waves.webp"
+          ],
+          "src": [
+            "images/valentine/sea_waves@0.5x.webp",
+            "images/valentine/sea_waves.webp"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/sea_waves_cropped.png",
+            "sea_waves_cropped.png"
+          ],
+          "src": [
+            "images/valentine/sea_waves_cropped@0.5x.webp",
+            "images/valentine/sea_waves_cropped@0.5x.png",
+            "images/valentine/sea_waves_cropped.webp",
+            "images/valentine/sea_waves_cropped.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/sea_waves_pure.png",
+            "sea_waves_pure.png"
+          ],
+          "src": [
+            "images/valentine/sea_waves_pure@0.5x.webp",
+            "images/valentine/sea_waves_pure@0.5x.png",
+            "images/valentine/sea_waves_pure.webp",
+            "images/valentine/sea_waves_pure.png"
+          ],
+          "data": {
+            "tags": {}
+          }
         }
       ]
     },

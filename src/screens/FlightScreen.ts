@@ -29,7 +29,7 @@ export class FlightScreen extends Container implements AppScreen {
 
         // Create tiling sea (for parallax scrolling)
         this._sea = new TilingSprite({
-            texture: Texture.from('sea_waves.jpg'), // Adjust to your asset name
+            texture: Texture.from('sea_waves_cropped.png'), // Adjust to your asset name
             width: 64,
             height: 64,
         });
