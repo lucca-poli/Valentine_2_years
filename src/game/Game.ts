@@ -2,21 +2,12 @@ import gsap from 'gsap';
 import { Point } from 'pixi.js';
 import { Container, Rectangle } from 'pixi.js';
 
-// import { navigation } from '../navigation';
-// import { ResultScreen } from '../screens/ResultScreen';
 import { boardConfig } from './boardConfig';
 import { Stats } from './Stats';
 import { SystemRunner } from './SystemRunner';
-// import { AimSystem } from './systems/AimSystem';
-// import { CannonSystem } from './systems/CannonSystem';
-// import { EffectsSystem } from './systems/EffectsSystem';
-// import { HudSystem } from './systems/HudSystem';
-// import { LevelSystem } from './systems/LevelSystem';
-import { PauseSystem } from './systems/PauseSystem';
-// import { PhysicsSystem } from './systems/PhysicsSystem';
-// import { PowerSystem } from './systems/PowerSystem';
-// import { ScoreSystem } from './systems/ScoreSystem';
-// import { SpaceDecorSystem } from './systems/SpaceDecorSystem';
+import { AirplaneSystem } from './systems/AirplaneSystem';
+import { FlightControlSystem } from './systems/FlightControlSystem';
+import { ScrollingSystem } from './systems/ScrollingSystem';
 
 /** A class that handles all of gameplay based features. */
 export class Game {
@@ -82,20 +73,10 @@ export class Game {
     /** Initialisation point of the Game, used to add systems to the game. */
     public init() {
         // Add systems to system runner
-        // this.systems.add(SpaceDecorSystem);
-        // this.systems.add(PauseSystem);
-        // this.systems.add(PhysicsSystem);
-        // this.systems.add(HudSystem);
-        // this.systems.add(PowerSystem);
-        // this.systems.add(LevelSystem);
-        // this.systems.add(AimSystem);
-        // this.systems.add(CannonSystem);
-        // this.systems.add(EffectsSystem);
-        // this.systems.add(ScoreSystem);
-        // this.systems.add(ScrollingSystem);      // Handles parallax scrolling
-        // this.systems.add(AirplaneSystem);       // Handles airplane sprite and movement
-        // this.systems.add(FlightControlSystem);  // Handles spacebar input
-        // this.systems.add(ObstacleSystem);       // Spawns and manages obstacles
+        this.systems.add(ScrollingSystem);   // Handles parallax scrolling (add later)
+        this.systems.add(AirplaneSystem);       // Handles airplane sprite and movement
+        this.systems.add(FlightControlSystem);  // Handles spacebar input
+        // this.systems.add(ObstacleSystem);    // Spawns and manages obstacles (add later)
 
         // Initialise systems
         this.systems.init();

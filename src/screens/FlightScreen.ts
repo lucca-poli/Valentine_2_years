@@ -1,7 +1,9 @@
 import gsap from 'gsap';
-import { Container, Graphics, Text, Texture, Ticker, TilingSprite } from 'pixi.js';
+import { Container, Graphics, Sprite, Text, Texture, Ticker, TilingSprite } from 'pixi.js';
 import type { AppScreen } from '../navigation';
 import { Game } from '../game/Game';
+import { ScrollingSystem } from '../game/systems/ScrollingSystem';
+import { AirplaneSystem } from '../game/systems/AirplaneSystem';
 
 /** The flight screen with airplane gameplay */
 export class FlightScreen extends Container implements AppScreen {
@@ -12,6 +14,7 @@ export class FlightScreen extends Container implements AppScreen {
 
     private readonly _skyBackground: Graphics;
     private readonly _sea: TilingSprite;
+    private readonly _airportRunway: Sprite;
     private readonly _flight: Game;
     private _instructionText: Text | null = null;
 
@@ -38,6 +41,10 @@ export class FlightScreen extends Container implements AppScreen {
         // Create flight instance and initialize
         this._flight = new Game();
         this._flight.init();
+
+        // Connect sea to ScrollingSystem AFTER init
+        this._flight.systems.get(ScrollingSystem).setSea(this._sea);
+
         this.addChild(this._flight.stage);
 
         // Create instruction text
@@ -115,6 +122,15 @@ export class FlightScreen extends Container implements AppScreen {
      */
     public update(time: Ticker) {
         this._flight.update(time.deltaTime);
+
+        // Update sea scrolling
+        const airplaneSystem = this._flight.systems.get(AirplaneSystem);
+        const scrollingSystem = this._flight.systems.get(ScrollingSystem);
+
+        const airplaneSpeedX = airplaneSystem.getCurrentSpeedX();
+        const cameraLocked = airplaneSystem.isCameraLocked();
+
+        scrollingSystem.updateSeaScroll(airplaneSpeedX, cameraLocked);
     }
 
     /**
