@@ -529,6 +529,21 @@
         },
         {
           "alias": [
+            "images/valentine/airport_runway_flipped.png",
+            "airport_runway_flipped.png"
+          ],
+          "src": [
+            "images/valentine/airport_runway_flipped@0.5x.webp",
+            "images/valentine/airport_runway_flipped@0.5x.png",
+            "images/valentine/airport_runway_flipped.webp",
+            "images/valentine/airport_runway_flipped.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
             "images/valentine/departure_area.jpg",
             "departure_area.jpg"
           ],

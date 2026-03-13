@@ -8,6 +8,7 @@ import { SystemRunner } from './SystemRunner';
 import { AirplaneSystem } from './systems/AirplaneSystem';
 import { FlightControlSystem } from './systems/FlightControlSystem';
 import { ScrollingSystem } from './systems/ScrollingSystem';
+import { GameOverSystem } from './systems/GameOverSystem';
 
 /** A class that handles all of gameplay based features. */
 export class Game {
@@ -36,6 +37,7 @@ export class Game {
 
     constructor() {
         this.stage.addChild(this.gameContainer);
+        this.gameContainer.sortableChildren = true;
 
         // Prepare the container for interaction
         this._hitArea = new Rectangle();
@@ -76,6 +78,7 @@ export class Game {
         this.systems.add(ScrollingSystem);   // Handles parallax scrolling (add later)
         this.systems.add(AirplaneSystem);       // Handles airplane sprite and movement
         this.systems.add(FlightControlSystem);  // Handles spacebar input
+        this.systems.add(GameOverSystem);       // Game over and restart
         // this.systems.add(ObstacleSystem);    // Spawns and manages obstacles (add later)
 
         // Initialise systems

@@ -26,8 +26,9 @@ export class FlightScreen extends Container implements AppScreen {
 
         // Create light blue sky background
         this._skyBackground = new Graphics();
-        this._skyBackground.fill(0x87CEEB); // Light blue
-        this._skyBackground.rect(0, 0, 64, 64);
+        this._skyBackground.beginFill(0x87CEEB); // Light blue
+        this._skyBackground.drawRect(0, 0, 64, 64);
+        this._skyBackground.endFill();
         this.addChild(this._skyBackground);
 
         // Create tiling sea (for parallax scrolling)
