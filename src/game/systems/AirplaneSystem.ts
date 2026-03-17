@@ -24,10 +24,10 @@ export class AirplaneSystem implements System {
 
     // Physics properties (like Jetpack Joyride)
     private _velocityY = 0;
-    private readonly _gravity = 0.6;        // Pulls down
-    private readonly _thrust = -1.2;         // Upward force when space pressed
+    private readonly _gravity = 0.6; // Pulls down
+    private readonly _thrust = -1.2; // Upward force when space pressed
     private readonly _maxVelocityDown = 15; // Terminal velocity falling
-    private readonly _maxVelocityUp = -15;  // Max upward speed
+    private readonly _maxVelocityUp = -15; // Max upward speed
 
     // Horizontal movement (sigmoid)
     private readonly _a = 4;
@@ -41,6 +41,8 @@ export class AirplaneSystem implements System {
     private _cameraLocked = false;
 
     private _currentSpeedX = 0;
+
+    private _manualCameraUnlock = false;
 
     /** Called when the system is added to the game. */
     public init() {
@@ -63,6 +65,17 @@ export class AirplaneSystem implements System {
         this._velocityY = 0;
         this._hasStarted = false;
         console.log('AirplaneSystem: Awake at', this.airplane.x, this.airplane.y);
+    }
+
+    /** Unlock camera manually (called by LandingSystem) */
+    public unlockCamera() {
+        this._manualCameraUnlock = true;
+        console.log('AirplaneSystem: Camera manually unlocked for landing');
+    }
+
+    /** Check if currently thrusting */
+    public isThrusting(): boolean {
+        return this._isThrusting;
     }
 
     /** Called when the game starts. */
@@ -93,8 +106,8 @@ export class AirplaneSystem implements System {
 
         // Keep airplane on screen (boundary check)
         const margin = 100;
-        const topLimit = -this._screenHeight + margin;  // Top of screen (negative)
-        const bottomLimit = -margin;                     // Bottom of screen (less negative)
+        const topLimit = -this._screenHeight + margin; // Top of screen (negative)
+        const bottomLimit = -margin - 100; // Bottom of screen (less negative)
 
         if (this.airplane.y < topLimit) {
             this.airplane.y = topLimit;
@@ -111,18 +124,21 @@ export class AirplaneSystem implements System {
         const speedFactor = 1 / (1 + Math.exp(-(this._a * t - this._b)));
         const speedX = speedFactor * this._maxSpeedX;
 
+        // update distance
+        let distance = this.game.stats.get('distance');
+        const timeSeconds = delta / 60;
+        distance += timeSeconds * speedX;
+
+        // Check if airplane has moved far enough to lock camera
+        const startX = -this._screenWidth * 0.3;
+        const distanceMoved = this.airplane.x - startX;
         // Check if airplane should still move right or if camera should follow
-        if (!this._cameraLocked) {
+        if (!this._cameraLocked || this._manualCameraUnlock) {
             // Initial phase: Airplane moves right
             this.airplane.x += speedX * delta;
 
-            // Check if airplane has moved far enough to lock camera
-            const startX = -this._screenWidth * 0.3;
-            const distanceMoved = this.airplane.x - startX;
-
             if (distanceMoved >= this._initialMovementDistance) {
                 this._cameraLocked = true;
-                console.log('Camera locked on airplane');
             }
         }
         // If camera is locked, airplane stays in place and world moves instead
@@ -133,7 +149,7 @@ export class AirplaneSystem implements System {
 
         // === UPDATE STATS ===
 
-        this.game.stats.set('distance', Math.floor(this.airplane.x / 10));
+        this.game.stats.set('distance', distance);
     }
 
     // Add this getter (after update method):
@@ -142,8 +158,11 @@ export class AirplaneSystem implements System {
         return this._currentSpeedX;
     }
 
-    /** Check if camera is locked */
+    /** Get camera locked state, accounting for manual unlock */
     public isCameraLocked(): boolean {
+        if (this._manualCameraUnlock) {
+            return false; // Camera is unlocked during landing
+        }
         return this._cameraLocked;
     }
 
@@ -162,8 +181,9 @@ export class AirplaneSystem implements System {
         this._velocityY = 0;
         this._hasStarted = false;
         this._isThrusting = false;
-        this._cameraLocked = false; // ADD THIS
-        this._currentSpeedX = 0;    // ADD THIS
+        this._cameraLocked = false;
+        this._manualCameraUnlock = false;
+        this._currentSpeedX = 0;
         console.log('AirplaneSystem: Reset');
     }
 

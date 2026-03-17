@@ -3,10 +3,6 @@ const DEFAULT_STORAGE = {
      * Indicates if the audio is muted
      */
     muted: false,
-    /**
-     * The highest score achieved by the player
-     */
-    highscore: 0,
 };
 
 export type StorageData = typeof DEFAULT_STORAGE;

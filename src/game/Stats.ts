@@ -1,21 +1,10 @@
-import { storage } from '../storage';
-
 /**
  * The default stats of a user, used to create fully defined initial stats,
  * as well as reset values. The stats reset every game.
  */
 const DEFAULT_STATS = {
     /** Player's total score. */
-    score: 0,
     distance: 0,
-    /** Player's highscore. */
-    highscore: 0,
-    /** How many bubbles the player has dislodged from the level */
-    bubblesPopped: 0,
-    /** Highest amount of `bubblesPopped` per player shot */
-    bestCombo: 0,
-    /** How many powerups have been triggered */
-    powerupsUsed: 0,
 };
 
 /** Type defined from the default data. */
@@ -34,7 +23,6 @@ export class Stats {
 
     constructor() {
         // Sets the stat highscore to be the stored highscore
-        this.set('highscore', storage.getStorageItem('highscore'));
     }
 
     /**

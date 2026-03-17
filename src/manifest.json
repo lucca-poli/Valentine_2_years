@@ -5,12 +5,11 @@
       "assets": [
         {
           "alias": [
-            "audio/bubble-land-sfx.wav",
-            "bubble-land-sfx.wav"
+            "Coisa_de_Cinema"
           ],
           "src": [
-            "audio/bubble-land-sfx.ogg",
-            "audio/bubble-land-sfx.mp3"
+            "audio/Coisa_de_Cinema.ogg",
+            "audio/Coisa_de_Cinema.mp3"
           ],
           "data": {
             "tags": {}
@@ -18,150 +17,11 @@
         },
         {
           "alias": [
-            "audio/bubbles-falling.wav",
-            "bubbles-falling.wav"
+            "airplane_audio"
           ],
           "src": [
-            "audio/bubbles-falling.ogg",
-            "audio/bubbles-falling.mp3"
-          ],
-          "data": {
-            "tags": {}
-          }
-        },
-        {
-          "alias": [
-            "audio/bubbo-bubbo-bg-music.wav",
-            "bubbo-bubbo-bg-music.wav"
-          ],
-          "src": [
-            "audio/bubbo-bubbo-bg-music.ogg",
-            "audio/bubbo-bubbo-bg-music.mp3"
-          ],
-          "data": {
-            "tags": {}
-          }
-        },
-        {
-          "alias": [
-            "audio/cannon-move.wav",
-            "cannon-move.wav"
-          ],
-          "src": [
-            "audio/cannon-move.ogg",
-            "audio/cannon-move.mp3"
-          ],
-          "data": {
-            "tags": {}
-          }
-        },
-        {
-          "alias": [
-            "audio/powerup-bomb.wav",
-            "powerup-bomb.wav"
-          ],
-          "src": [
-            "audio/powerup-bomb.ogg",
-            "audio/powerup-bomb.mp3"
-          ],
-          "data": {
-            "tags": {}
-          }
-        },
-        {
-          "alias": [
-            "audio/powerup-super.wav",
-            "powerup-super.wav"
-          ],
-          "src": [
-            "audio/powerup-super.ogg",
-            "audio/powerup-super.mp3"
-          ],
-          "data": {
-            "tags": {}
-          }
-        },
-        {
-          "alias": [
-            "audio/powerup-time.wav",
-            "powerup-time.wav"
-          ],
-          "src": [
-            "audio/powerup-time.ogg",
-            "audio/powerup-time.mp3"
-          ],
-          "data": {
-            "tags": {}
-          }
-        },
-        {
-          "alias": [
-            "audio/primary-button-press.wav",
-            "primary-button-press.wav"
-          ],
-          "src": [
-            "audio/primary-button-press.ogg",
-            "audio/primary-button-press.mp3"
-          ],
-          "data": {
-            "tags": {}
-          }
-        },
-        {
-          "alias": [
-            "audio/secondary-button-press.wav",
-            "secondary-button-press.wav"
-          ],
-          "src": [
-            "audio/secondary-button-press.ogg",
-            "audio/secondary-button-press.mp3"
-          ],
-          "data": {
-            "tags": {}
-          }
-        },
-        {
-          "alias": [
-            "fonts/Bungee-Regular.ttf",
-            "Bungee-Regular.ttf"
-          ],
-          "src": [
-            "fonts/Bungee-Regular.woff2"
-          ],
-          "data": {
-            "tags": {
-              "wf": true,
-              "family": "Bungee-Regular"
-            },
-            "family": "Bungee-Regular"
-          }
-        },
-        {
-          "alias": [
-            "fonts/OpenSans-SemiBold.ttf",
-            "OpenSans-SemiBold.ttf"
-          ],
-          "src": [
-            "fonts/OpenSans-SemiBold.woff2"
-          ],
-          "data": {
-            "tags": {
-              "wf": true,
-              "family": "OpenSans-SemiBold"
-            },
-            "family": "OpenSans-SemiBold"
-          }
-        },
-        {
-          "alias": [
-            "images/favicon.png",
-            "favicon.png"
-          ],
-          "src": [
-            "images/favicon@0.5x.webp",
-            "images/favicon@0.5x.png",
-            "images/favicon.webp",
-            "images/favicon.png"
+            "audio/airplane_audio.ogg",
+            "audio/airplane_audio.mp3"
           ],
           "data": {
             "tags": {}
@@ -439,14 +299,14 @@
         },
         {
           "alias": [
-            "images/valentine/airplane_down.jpg",
-            "airplane_down.jpg"
+            "images/valentine/Lucca.png",
+            "Lucca.png"
           ],
           "src": [
-            "images/valentine/airplane_down@0.5x.webp",
-            "images/valentine/airplane_down@0.5x.jpg",
-            "images/valentine/airplane_down.webp",
-            "images/valentine/airplane_down.jpg"
+            "images/valentine/Lucca@0.5x.webp",
+            "images/valentine/Lucca@0.5x.png",
+            "images/valentine/Lucca.webp",
+            "images/valentine/Lucca.png"
           ],
           "data": {
             "tags": {}
@@ -462,21 +322,6 @@
             "images/valentine/airplane_down@0.5x.png",
             "images/valentine/airplane_down.webp",
             "images/valentine/airplane_down.png"
-          ],
-          "data": {
-            "tags": {}
-          }
-        },
-        {
-          "alias": [
-            "images/valentine/airplane_moving.jpg",
-            "airplane_moving.jpg"
-          ],
-          "src": [
-            "images/valentine/airplane_moving@0.5x.webp",
-            "images/valentine/airplane_moving@0.5x.jpg",
-            "images/valentine/airplane_moving.webp",
-            "images/valentine/airplane_moving.jpg"
           ],
           "data": {
             "tags": {}
@@ -514,6 +359,19 @@
         },
         {
           "alias": [
+            "images/valentine/airport_arrival.webp",
+            "airport_arrival.webp"
+          ],
+          "src": [
+            "images/valentine/airport_arrival@0.5x.webp",
+            "images/valentine/airport_arrival.webp"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
             "images/valentine/airport_runway.png",
             "airport_runway.png"
           ],
@@ -544,6 +402,21 @@
         },
         {
           "alias": [
+            "images/valentine/cloud.png",
+            "cloud.png"
+          ],
+          "src": [
+            "images/valentine/cloud@0.5x.webp",
+            "images/valentine/cloud@0.5x.png",
+            "images/valentine/cloud.webp",
+            "images/valentine/cloud.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
             "images/valentine/departure_area.jpg",
             "departure_area.jpg"
           ],
@@ -552,6 +425,36 @@
             "images/valentine/departure_area@0.5x.jpg",
             "images/valentine/departure_area.webp",
             "images/valentine/departure_area.jpg"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/explosion.png",
+            "explosion.png"
+          ],
+          "src": [
+            "images/valentine/explosion@0.5x.webp",
+            "images/valentine/explosion@0.5x.png",
+            "images/valentine/explosion.webp",
+            "images/valentine/explosion.png"
+          ],
+          "data": {
+            "tags": {}
+          }
+        },
+        {
+          "alias": [
+            "images/valentine/flymoney.png",
+            "flymoney.png"
+          ],
+          "src": [
+            "images/valentine/flymoney@0.5x.webp",
+            "images/valentine/flymoney@0.5x.png",
+            "images/valentine/flymoney.webp",
+            "images/valentine/flymoney.png"
           ],
           "data": {
             "tags": {}
@@ -604,27 +507,14 @@
         },
         {
           "alias": [
-            "images/valentine/sea_waves.png",
-            "sea_waves.png"
+            "images/valentine/heart_transparent.png",
+            "heart_transparent.png"
           ],
           "src": [
-            "images/valentine/sea_waves@0.5x.webp",
-            "images/valentine/sea_waves@0.5x.png",
-            "images/valentine/sea_waves.webp",
-            "images/valentine/sea_waves.png"
-          ],
-          "data": {
-            "tags": {}
-          }
-        },
-        {
-          "alias": [
-            "images/valentine/sea_waves.webp",
-            "sea_waves.webp"
-          ],
-          "src": [
-            "images/valentine/sea_waves@0.5x.webp",
-            "images/valentine/sea_waves.webp"
+            "images/valentine/heart_transparent@0.5x.webp",
+            "images/valentine/heart_transparent@0.5x.png",
+            "images/valentine/heart_transparent.webp",
+            "images/valentine/heart_transparent.png"
           ],
           "data": {
             "tags": {}
@@ -659,119 +549,20 @@
           "data": {
             "tags": {}
           }
-        }
-      ]
-    },
-    {
-      "name": "game-screen",
-      "assets": [
+        },
         {
           "alias": [
-            "images/game-screen",
-            "game-screen"
+            "images/valentine/trump.png",
+            "trump.png"
           ],
           "src": [
-            "images/game-screen@0.5x.webp.json",
-            "images/game-screen@0.5x.png.json",
-            "images/game-screen.webp.json",
-            "images/game-screen.png.json"
+            "images/valentine/trump@0.5x.webp",
+            "images/valentine/trump@0.5x.png",
+            "images/valentine/trump.webp",
+            "images/valentine/trump.png"
           ],
           "data": {
-            "tags": {
-              "m": true,
-              "tps": true
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "pause-overlay",
-      "assets": [
-        {
-          "alias": [
-            "images/pause-overlay/pause-panel.png",
-            "pause-panel.png"
-          ],
-          "src": [
-            "images/pause-overlay/pause-panel@0.5x.webp",
-            "images/pause-overlay/pause-panel@0.5x.png",
-            "images/pause-overlay/pause-panel.webp",
-            "images/pause-overlay/pause-panel.png"
-          ],
-          "data": {
-            "tags": {
-              "m": true
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "preload",
-      "assets": [
-        {
-          "alias": [
-            "images/preload",
-            "preload"
-          ],
-          "src": [
-            "images/preload@0.5x.webp.json",
-            "images/preload@0.5x.png.json",
-            "images/preload.webp.json",
-            "images/preload.png.json"
-          ],
-          "data": {
-            "tags": {
-              "m": true,
-              "tps": true
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "results-screen",
-      "assets": [
-        {
-          "alias": [
-            "images/results-screen",
-            "results-screen"
-          ],
-          "src": [
-            "images/results-screen@0.5x.webp.json",
-            "images/results-screen@0.5x.png.json",
-            "images/results-screen.webp.json",
-            "images/results-screen.png.json"
-          ],
-          "data": {
-            "tags": {
-              "m": true,
-              "tps": true
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "title-screen",
-      "assets": [
-        {
-          "alias": [
-            "images/title-screen",
-            "title-screen"
-          ],
-          "src": [
-            "images/title-screen@0.5x.webp.json",
-            "images/title-screen@0.5x.png.json",
-            "images/title-screen.webp.json",
-            "images/title-screen.png.json"
-          ],
-          "data": {
-            "tags": {
-              "m": true,
-              "tps": true
-            }
+            "tags": {}
           }
         }
       ]

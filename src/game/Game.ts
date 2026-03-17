@@ -2,13 +2,16 @@ import gsap from 'gsap';
 import { Point } from 'pixi.js';
 import { Container, Rectangle } from 'pixi.js';
 
-import { boardConfig } from './boardConfig';
 import { Stats } from './Stats';
 import { SystemRunner } from './SystemRunner';
 import { AirplaneSystem } from './systems/AirplaneSystem';
 import { FlightControlSystem } from './systems/FlightControlSystem';
 import { ScrollingSystem } from './systems/ScrollingSystem';
 import { GameOverSystem } from './systems/GameOverSystem';
+import { LandingSystem } from './systems/LandingSystem';
+import { ObstacleSystem } from './systems/ObstacleSystem';
+import { navigation } from '../navigation';
+import { ArrivalScreen } from '../screens/ArrivalScreen';
 
 /** A class that handles all of gameplay based features. */
 export class Game {
@@ -75,11 +78,12 @@ export class Game {
     /** Initialisation point of the Game, used to add systems to the game. */
     public init() {
         // Add systems to system runner
-        this.systems.add(ScrollingSystem);   // Handles parallax scrolling (add later)
-        this.systems.add(AirplaneSystem);       // Handles airplane sprite and movement
-        this.systems.add(FlightControlSystem);  // Handles spacebar input
-        this.systems.add(GameOverSystem);       // Game over and restart
-        // this.systems.add(ObstacleSystem);    // Spawns and manages obstacles (add later)
+        this.systems.add(ScrollingSystem); // Handles parallax scrolling (add later)
+        this.systems.add(FlightControlSystem); // Handles spacebar input
+        this.systems.add(GameOverSystem); // Game over and restart
+        this.systems.add(LandingSystem); // Landing sequence
+        this.systems.add(AirplaneSystem); // Handles airplane sprite and movement
+        this.systems.add(ObstacleSystem); // Spawns and manages obstacles (add later)
 
         // Initialise systems
         this.systems.init();
@@ -150,7 +154,8 @@ export class Game {
         if (!this.hasStarted || this.isGameOver) return;
 
         // Update time for sigmoid function
-        this.timeElapsed += delta / 60; // Convert to seconds
+        const timeSeconds = delta / 60;
+        this.timeElapsed += timeSeconds; // Convert to seconds
 
         // Update systems
         this.systems.update(delta);
@@ -180,7 +185,7 @@ export class Game {
         this.isGameOver = true;
 
         // Disable controls
-        // this.systems.get(FlightControlSystem).enabled(false);
+        this.systems.get(FlightControlSystem).enabled(false);
 
         // Optional: Celebratory animation
         await gsap.to(this.gameContainer, {
@@ -190,11 +195,11 @@ export class Game {
         });
 
         // Navigate to ArrivalScreen
-        // gsap.delayedCall(0.5, () => {
-        //     navigation.goToScreen(ArrivalScreen, {
-        //         distance: this.stats.get('distance'),
-        //     });
-        // });
+        gsap.delayedCall(0.5, () => {
+            navigation.goToScreen(ArrivalScreen, {
+                distance: this.stats.get('distance'),
+            });
+        });
     }
 
     /**
@@ -212,12 +217,14 @@ export class Game {
         this.gameContainer.y = this.gameContainerPosition.y;
 
         // Offsets the hit area position back to top left of the screen,
-        // it then sets the dimensions of the hit area to match the screen dimensions
-        // Leave a little room to prevent interaction bellow the cannon
+        // Limit the top to match airplane's initial Y level
+        const airplaneInitialY = -h * 0.16; // Same as airplane's spawn Y
+        console.log('Hit box y: ', airplaneInitialY);
+
         this._hitArea.x = -w / 2;
-        this._hitArea.y = -h;
+        this._hitArea.y = airplaneInitialY; // Start hit area at airplane level (was -h)
         this._hitArea.width = w;
-        this._hitArea.height = h - boardConfig.bounceLine * 0.75;
+        this._hitArea.height = h + airplaneInitialY; // Height from airplane level to bottom (was h)
 
         // Call `resize()` on the systems
         this.systems.resize(w, h);

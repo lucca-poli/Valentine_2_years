@@ -1,5 +1,5 @@
 import gsap from 'gsap';
-import { Container, Graphics, Sprite, Text, Texture, Ticker, TilingSprite } from 'pixi.js';
+import { Container, Graphics, Text, Texture, Ticker, TilingSprite } from 'pixi.js';
 import type { AppScreen } from '../navigation';
 import { Game } from '../game/Game';
 import { ScrollingSystem } from '../game/systems/ScrollingSystem';
@@ -14,7 +14,6 @@ export class FlightScreen extends Container implements AppScreen {
 
     private readonly _skyBackground: Graphics;
     private readonly _sea: TilingSprite;
-    private readonly _airportRunway: Sprite;
     private readonly _flight: Game;
     private _instructionText: Text | null = null;
 
@@ -26,7 +25,7 @@ export class FlightScreen extends Container implements AppScreen {
 
         // Create light blue sky background
         this._skyBackground = new Graphics();
-        this._skyBackground.beginFill(0x87CEEB); // Light blue
+        this._skyBackground.beginFill(0x87ceeb); // Light blue
         this._skyBackground.drawRect(0, 0, 64, 64);
         this._skyBackground.endFill();
         this.addChild(this._skyBackground);
@@ -54,11 +53,11 @@ export class FlightScreen extends Container implements AppScreen {
             style: {
                 fontFamily: 'Arial',
                 fontSize: 48,
-                fill: 0xFFFFFF,
+                fill: 0xffffff,
                 stroke: 0x000000,
                 // strokeThickness: 4,
                 align: 'center',
-            }
+            },
         });
         this._instructionText.anchor.set(0.5);
         this.addChild(this._instructionText);
@@ -142,7 +141,7 @@ export class FlightScreen extends Container implements AppScreen {
     public resize(w: number, h: number) {
         // Resize sky background to fill screen
         this._skyBackground.clear();
-        this._skyBackground.beginFill(0x87CEEB);
+        this._skyBackground.beginFill(0x87ceeb);
         this._skyBackground.drawRect(0, 0, w, h);
         this._skyBackground.endFill();
 

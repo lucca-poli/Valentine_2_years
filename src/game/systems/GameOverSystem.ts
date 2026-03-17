@@ -37,7 +37,6 @@ export class GameOverSystem implements System {
     /** Keyboard handler for restart */
     private _keyDownHandler: ((e: KeyboardEvent) => void) | null = null;
 
-    private _screenWidth = 0;
     private _screenHeight = 0;
 
     /** Called when the system is added to the game. */
@@ -51,7 +50,7 @@ export class GameOverSystem implements System {
                 fill: 0x000000, // Black
                 fontWeight: 'bold',
                 align: 'center',
-            }
+            },
         });
         this._gameOverText.anchor.set(0.5);
         this.view.addChild(this._gameOverText);
@@ -62,10 +61,10 @@ export class GameOverSystem implements System {
             style: {
                 fontFamily: 'Arial',
                 fontSize: 36,
-                fill: 0xFFFFFF, // White
+                fill: 0xffffff, // White
                 stroke: 0x000000, // Black outline
                 align: 'center',
-            }
+            },
         });
         this._restartText.anchor.set(0.5);
         this.view.addChild(this._restartText);
@@ -98,11 +97,16 @@ export class GameOverSystem implements System {
         console.log('GameOverSystem: Started');
     }
 
+    /** Enable or disable crash detection */
+    public enabled(value: boolean) {
+        console.log('GameOverSystem:', value ? 'Enabled' : 'Disabled');
+    }
+
     /**
      * Called every frame.
      * @param delta - The time elapsed since the last update.
      */
-    public update(delta: number) {
+    public update() {
         if (this._isGameOverActive) return;
 
         // Check if airplane has crashed into sea
@@ -139,8 +143,7 @@ export class GameOverSystem implements System {
      * @param w - width of the screen.
      * @param h - height of the screen.
      */
-    public resize(w: number, h: number) {
-        this._screenWidth = w;
+    public resize(h: number) {
         this._screenHeight = h;
 
         // Recalculate sea level

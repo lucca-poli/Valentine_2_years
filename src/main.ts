@@ -1,20 +1,16 @@
-import { Application, Assets } from 'pixi.js';
+import { Application } from 'pixi.js';
 
 import { initAssets } from './assets';
-import { audio, bgm } from './audio';
+import { audio } from './audio';
 import { designConfig } from './game/designConfig';
 import { navigation } from './navigation';
 import { GameScreen } from './screens/GameScreen';
-import { LoadScreen } from './screens/LoadScreen';
-import { TitleScreen } from './screens/TitleScreen';
 import { IntroScreen } from './screens/IntroScreen';
 import { storage } from './storage';
 import { getUrlParam } from './utils/utils';
 
 /** The PixiJS app Application instance, shared across the project */
 export const app = new Application();
-
-let hasInteracted = false;
 
 /** Set up a resize function for the app */
 function resize() {
@@ -65,40 +61,30 @@ async function init() {
     storage.readyStorage();
 
     // Assign the universal loading screen
-    navigation.setLoadScreen(LoadScreen);
+    // navigation.setLoadScreen(LoadScreen);
 
     // Change the audio mute state to the stored state
-    audio.muted(storage.getStorageItem('muted'));
-
-    // Prepare for user interaction, and play the music on event
-    document.addEventListener('pointerdown', () => {
-        if (!hasInteracted) {
-            // Only play audio if it hasn't already been played
-            bgm.play('audio/bubbo-bubbo-bg-music.wav');
-        }
-
-        hasInteracted = true;
-    });
+    audio.muted(false);
 
     // Check for visibility sate so we can mute the audio on "hidden"
-    document.addEventListener('visibilitychange', () => {
-        if (document.visibilityState !== 'visible') {
-            // Always mute on hidden
-            audio.muted(true);
-        } else {
-            // Only unmute if it was previously unmuted
-            audio.muted(storage.getStorageItem('muted'));
-        }
-    });
+    // document.addEventListener('visibilitychange', () => {
+    //     if (document.visibilityState !== 'visible') {
+    //         // Always mute on hidden
+    //         audio.muted(true);
+    //     } else {
+    //         // Only unmute if it was previously unmuted
+    //         audio.muted(storage.getStorageItem('muted'));
+    //     }
+    // });
 
     // Show first screen - go straight to game if '?play' param is present in url
     // This is used for debugging
     if (getUrlParam('play') !== null) {
-        await Assets.loadBundle(TitleScreen.assetBundles);
-        await Assets.loadBundle(IntroScreen.assetBundles);
+        // await Assets.loadBundle(TitleScreen.assetBundles);
+        // await Assets.loadBundle(IntroScreen.assetBundles);
         await navigation.goToScreen(GameScreen);
     } else if (getUrlParam('loading') !== null) {
-        await navigation.goToScreen(LoadScreen);
+        // await navigation.goToScreen(LoadScreen);
     } else {
         await navigation.goToScreen(IntroScreen);
     }

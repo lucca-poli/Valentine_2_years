@@ -30,14 +30,13 @@ export class ScrollingSystem implements System {
     private readonly _transitionDistance = 150; // When distance stat reaches this, fade out runway
 
     /** Parallax speed multipliers */
-    private readonly _seaSpeed = 0.5;      // Sea moves at 50% of airplane speed
-    private readonly _runwaySpeed = 1.0;   // Runway moves at 100% of airplane speed
+    private readonly _seaSpeed = 0.5; // Sea moves at 50% of airplane speed
+    private readonly _runwaySpeed = 1.0; // Runway moves at 100% of airplane speed
 
     /** Obstacle speed multiplier (for later use) */
-    public readonly obstacleSpeed = 0.7;   // Obstacles move at 70% of airplane speed
+    public readonly obstacleSpeed = 0.7; // Obstacles move at 70% of airplane speed
 
     private _screenWidth = 0;
-    private _screenHeight = 0;
 
     /** Called when the system is added to the game. */
     public init() {
@@ -47,7 +46,6 @@ export class ScrollingSystem implements System {
         this.runway = Sprite.from('airport_runway.png');
         this.runway.anchor.set(0, 1); // Bottom-left anchor
         this.game.addToGame(this.runway);
-
 
         // Add runway to game container
         this.game.addToGame(this.runway);
@@ -78,7 +76,7 @@ export class ScrollingSystem implements System {
      * Called every frame.
      * @param delta - The time elapsed since the last update.
      */
-    public update(delta: number) {
+    public update() {
         const airplaneSystem = this.game.systems.get(AirplaneSystem);
 
         // Only scroll background when camera is locked
@@ -136,9 +134,8 @@ export class ScrollingSystem implements System {
      * @param w - width of the screen.
      * @param h - height of the screen.
      */
-    public resize(w: number, h: number) {
+    public resize(w: number) {
         this._screenWidth = w;
-        this._screenHeight = h;
 
         // Scale runway instead of setting width/height
         if (this.runway) {
@@ -175,7 +172,7 @@ export class ScrollingSystem implements System {
             ease: 'power2.out',
             onComplete: () => {
                 this.runway.visible = false;
-            }
+            },
         });
     }
 }
