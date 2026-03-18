@@ -8,8 +8,7 @@
             "Coisa_de_Cinema"
           ],
           "src": [
-            "audio/Coisa_de_Cinema.ogg",
-            "audio/Coisa_de_Cinema.mp3"
+            "audio/Coisa_de_Cinema"
           ],
           "data": {
             "tags": {}
@@ -20,8 +19,7 @@
             "airplane_audio"
           ],
           "src": [
-            "audio/airplane_audio.ogg",
-            "audio/airplane_audio.mp3"
+            "audio/airplane_audio"
           ],
           "data": {
             "tags": {}
